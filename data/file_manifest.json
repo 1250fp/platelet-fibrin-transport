@@ -1,0 +1,2302 @@
+{
+  "assembled_date": "2026-10-14",
+  "private_distribution": true,
+  "simulation_rerun": false,
+  "records": [
+    {
+      "file": "src/program19_core/__init__.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\__init__.py",
+      "sha256": "300fa4dc7f22ccf8ab4cf71bb242dff3cf15788cf752cdb18687ee46793437e4",
+      "bytes": 293
+    },
+    {
+      "file": "src/program19_core/bending.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\bending.py",
+      "sha256": "65f0773b3bddf1b54c0a69878a07a16b5865f3e7a25c687c4c79460a62f91e9f",
+      "bytes": 2158
+    },
+    {
+      "file": "src/program19_core/catalog.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\catalog.py",
+      "sha256": "f4b51d5b9c84cc4120c005dffbda043d9d068e052f4a5e3daed4bff0117f8fa3",
+      "bytes": 4699
+    },
+    {
+      "file": "src/program19_core/cli.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\cli.py",
+      "sha256": "990b96bc788ed6fd20e63e71c62317ffd3ca57734c572957ddebf8ea609e16bd",
+      "bytes": 12643
+    },
+    {
+      "file": "src/program19_core/codeocean_geometry.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\codeocean_geometry.py",
+      "sha256": "dcf657d67065d332a9cd3eacc094873e41736a001955ebde836c04c9d2e9820d",
+      "bytes": 7691
+    },
+    {
+      "file": "src/program19_core/cohesion.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\cohesion.py",
+      "sha256": "9e119f13b05b1d7135be407f28b2eabc76d27eb8876b0c5c7611c3fce9242ac6",
+      "bytes": 2308
+    },
+    {
+      "file": "src/program19_core/config.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\config.py",
+      "sha256": "cff50abe4c2c45215685579e8d1a98d37c28a511589669112082238ca0469bb2",
+      "bytes": 11686
+    },
+    {
+      "file": "src/program19_core/continuation.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\continuation.py",
+      "sha256": "ecf38bc3ed8b27c6c8b0a2a2bf1165bcee057c738b9c0359787dcd26852d9a3b",
+      "bytes": 22168
+    },
+    {
+      "file": "src/program19_core/evolving_transport.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\evolving_transport.py",
+      "sha256": "63f66243ddeb145b9f01ed1eb1095e4b4a9c99c4d36a8f0fd0480062e3264759",
+      "bytes": 27391
+    },
+    {
+      "file": "src/program19_core/experiments.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\experiments.py",
+      "sha256": "b1b48649ebaecaabeb8dface64484c9fba46c977282c14d2aa6d6930e2fb55c1",
+      "bytes": 8402
+    },
+    {
+      "file": "src/program19_core/geometry.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\geometry.py",
+      "sha256": "bebcd59059c411ebaa1b2266a6a25d907d541d5e5990cf7122ec0553010a862a",
+      "bytes": 13410
+    },
+    {
+      "file": "src/program19_core/gui.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\gui.py",
+      "sha256": "a54822887dd4d04351be50c1b3451477bea82154c5ba6f29a81a92a6069aa148",
+      "bytes": 44163
+    },
+    {
+      "file": "src/program19_core/integrator.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\integrator.py",
+      "sha256": "3794eef748de6d0de76fd4e40b90963f25b193c6fcfad5dccc504d448ebdc611",
+      "bytes": 7428
+    },
+    {
+      "file": "src/program19_core/interactions.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\interactions.py",
+      "sha256": "a90c4ed9754b7ef37d027430148a4d9d46fa6365fdf5a61399ecc650d18e71a8",
+      "bytes": 9928
+    },
+    {
+      "file": "src/program19_core/layers.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\layers.py",
+      "sha256": "180f4b439ab2a74aa7f28d9b62c053dd48b88daf52faa2d6ab53732f65f5b0e0",
+      "bytes": 4493
+    },
+    {
+      "file": "src/program19_core/mechanical_runner.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\mechanical_runner.py",
+      "sha256": "ab98eb5ad531e4393f85d505ac6b042f9337dc25fb4b635e847225d81b871670",
+      "bytes": 29432
+    },
+    {
+      "file": "src/program19_core/parallel.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\parallel.py",
+      "sha256": "4322d91c48e27ba3c0f6b12f6fe507d88bb1099f9dc18dcf795ac24db56144f2",
+      "bytes": 7043
+    },
+    {
+      "file": "src/program19_core/persistence.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\persistence.py",
+      "sha256": "08a7e669a177e291132a23a4d31bc6d8e1330d29e614f5ea409bad12a644cd3d",
+      "bytes": 7224
+    },
+    {
+      "file": "src/program19_core/pilot.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\pilot.py",
+      "sha256": "687c3a03c6b8df5639f06900607cbaa3df7c83527c6a076f5980b2df33fe50db",
+      "bytes": 17466
+    },
+    {
+      "file": "src/program19_core/profiles.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\profiles.py",
+      "sha256": "ec5785f7d931b0067d6105aa180ef269e94777c4f805d56cee99349cd6bcbcb0",
+      "bytes": 11452
+    },
+    {
+      "file": "src/program19_core/reporting.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\reporting.py",
+      "sha256": "7426f9c0d9d11b9acb1cb76634c015cc979c7c59062661f7645f5df91e40979c",
+      "bytes": 4820
+    },
+    {
+      "file": "src/program19_core/runner.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\runner.py",
+      "sha256": "1737125db12526fc9fdf2a851d9881bf87a3f187364b743c937a529ea1086faf",
+      "bytes": 149
+    },
+    {
+      "file": "src/program19_core/spatial.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\spatial.py",
+      "sha256": "bc0f58acefd4c201b05a533adf396eab6972e6edbffd81217534da310e8d6b58",
+      "bytes": 2066
+    },
+    {
+      "file": "src/program19_core/stack_extension.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\stack_extension.py",
+      "sha256": "4d54c4e514a78e26e837bf37c3f7f279cae725bc0f382da9ab3465a0f5991f1b",
+      "bytes": 9619
+    },
+    {
+      "file": "src/program19_core/state.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\state.py",
+      "sha256": "4eaaa9d9f14a47247789010971a795108eaa315189e25fad5529afc12f098aa6",
+      "bytes": 4071
+    },
+    {
+      "file": "src/program19_core/through_clot.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\through_clot.py",
+      "sha256": "a8241b1b018e5bbf618ba20ebf60e6cdc2c9ef2bdf7ca86fa35094ce82f44f18",
+      "bytes": 8548
+    },
+    {
+      "file": "src/program19_core/transport.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\transport.py",
+      "sha256": "b1a5416e522915103b528d11b1098a0aab4e7b316ad58b5b3d482e94022c97ef",
+      "bytes": 10420
+    },
+    {
+      "file": "src/program19_core/transport_steps.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\transport_steps.py",
+      "sha256": "e48a852d4552e9767744664bd4b5a4e7a7d6d70a03c557a0a276fe781bd10cd7",
+      "bytes": 7285
+    },
+    {
+      "file": "src/program19_core/wlc.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\wlc.py",
+      "sha256": "18eb9a6ddc0acf22bd8f9356917b7bf2ddbba38e34943660eced210425a4a813",
+      "bytes": 4722
+    },
+    {
+      "file": "tests/mechanics/test_program19.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\tests\\test_program19.py",
+      "sha256": "52184b2256459676a2721ea7253217b66a179dfc210be104c45687b5ecac72b8",
+      "bytes": 20689
+    },
+    {
+      "file": "tests/mechanics/test_transport_steps.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\tests\\test_transport_steps.py",
+      "sha256": "f2e0373cfded26ff26da42aef43d21645e763eb81eb2531c4e9f20614e82c97f",
+      "bytes": 6776
+    },
+    {
+      "file": "src/program19_3.py",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_3.py",
+      "sha256": "cae353a10aa94dfb8f6fbcf3591bec68a07d11c20241e02a706a43cfbb44e9d4",
+      "bytes": 166
+    },
+    {
+      "file": "docs/program19_3_original.md",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\README.md",
+      "sha256": "de8e15f3297eb1cf2b36fb7061c41c9a936dc9e8b0b4a739fe06da46d8bbd82f",
+      "bytes": 8367
+    },
+    {
+      "file": "configs/legacy_program19_example.json",
+      "source": "E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\example_config.json",
+      "sha256": "2b05498f52039dba367bf3fa14e01dd01323cb10252fe85621194253f48507c7",
+      "bytes": 737
+    },
+    {
+      "file": "src/continuous_transport/common_domain_connectivity.cpp",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\common_domain_connectivity.cpp",
+      "sha256": "546edf2a06ec1ab4c22f2398f7d19eee83613bb2c8cc84dec5b366b9e5186bd6",
+      "bytes": 16093
+    },
+    {
+      "file": "src/continuous_transport/homogeneous_clearance.cpp",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\homogeneous_clearance.cpp",
+      "sha256": "4d4ece103784791483195671859bb4e57bb9a3d7b8bec4655bfce2091ddb40d6",
+      "bytes": 2434
+    },
+    {
+      "file": "src/continuous_transport/transport_geometry_bridge.cpp",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\transport_geometry_bridge.cpp",
+      "sha256": "02f62e5479a4cc98621176f7838f0837201fe79a2b9d08f8635b1e1a080eaef4",
+      "bytes": 11716
+    },
+    {
+      "file": "src/continuous_transport/transport_reflection_long.cpp",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\transport_reflection_long.cpp",
+      "sha256": "4319f9cf29346f8be8125dbf369f167df6e5027cab65679176f7ef3f345c82cb",
+      "bytes": 14468
+    },
+    {
+      "file": "src/continuous_transport/transport_reflection_v2.cpp",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\transport_reflection_v2.cpp",
+      "sha256": "a03ea415eccdead15b18eb9c9b5882dad26a361264e3d7f7830997876e5ae885",
+      "bytes": 14315
+    },
+    {
+      "file": "src/continuous_transport/transport_reflection_temporal_20261009.cpp",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\source_snapshot\\transport_reflection_temporal_20261009.cpp",
+      "sha256": "9f2e98c99e5f0424848493fb89ffdc1372770b8452b4551b8a9656e208de928e",
+      "bytes": 14710
+    },
+    {
+      "file": "archive/research_drivers/common_connectivity_analysis.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\common_connectivity_analysis.py",
+      "sha256": "51f01f6a59b34eef26af3866ff844c7231f6e3634200ecf4d7e067b8447d8838",
+      "bytes": 5908
+    },
+    {
+      "file": "archive/research_drivers/run_nine_replica_15s_transport_20261001.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\run_nine_replica_15s_transport_20261001.py",
+      "sha256": "9e5df25d7d00e87617ba3a20477aa143c7fb753153fdeaf34169be442a17248e",
+      "bytes": 33170
+    },
+    {
+      "file": "archive/research_drivers/run_reflection_100s.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\run_reflection_100s.py",
+      "sha256": "dda0416af4ce13ec5024e657fb35623395b34bb0db473da6a8c0af292247d795",
+      "bytes": 8374
+    },
+    {
+      "file": "archive/research_drivers/run_replica6_transport_20260924.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001\\source_snapshot\\run_replica6_transport_20260924.py",
+      "sha256": "b3ab2c78baf67bd4d5727527cbe6162453f606d5e4a04e5f1c16c685531b9757",
+      "bytes": 22146
+    },
+    {
+      "file": "archive/research_drivers/update_nine_replica_15s_assets_20261001.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\work\\update_nine_replica_15s_assets_20261001.py",
+      "sha256": "2557e60cfa1abdd8c02ff3dcecf7671249baf0652523a4cc033bae2f535c0877",
+      "bytes": 41273
+    },
+    {
+      "file": "archive/research_drivers/verify_reflection_v1.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\work\\verify_reflection_v1.py",
+      "sha256": "c66bc02b363c65ea12cd534df2413cf11035e397aad2b41e8a8279c64b7ec464",
+      "bytes": 9304
+    },
+    {
+      "file": "archive/research_drivers/verify_reflection_v2.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\work\\verify_reflection_v2.py",
+      "sha256": "7990f91f1ba9c7e7294d7abb9a104329456e488f67603204ab27abbbfea9a71d",
+      "bytes": 2237
+    },
+    {
+      "file": "archive/research_drivers/run_reflection_verification.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\work\\run_reflection_verification.py",
+      "sha256": "4f1a18625e8b711fa0b37be6ff65918aae266a02f8c850eb20d2942643b082fe",
+      "bytes": 4704
+    },
+    {
+      "file": "archive/research_drivers/prepare_homogeneous_analysis.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\work\\prepare_homogeneous_analysis.py",
+      "sha256": "1abebe470a5ab8498263312983425b5bab279ed9e24c4aab21fa7b8b474e3dfa",
+      "bytes": 20325
+    },
+    {
+      "file": "archive/research_drivers/prepare_homogeneous_with_cohesion.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\work\\prepare_homogeneous_with_cohesion.py",
+      "sha256": "bdadcd311bb02dec33d4720252db1014223dbc52ff719baa48f58e6899ae0dd2",
+      "bytes": 11063
+    },
+    {
+      "file": "archive/research_drivers/continue_nine_replicas_to_15s_20260929.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\work\\continue_nine_replicas_to_15s_20260929.py",
+      "sha256": "93a5557efb3e601c6821578cfc37723455df1803f0b7929deeb65882b4127da7",
+      "bytes": 15851
+    },
+    {
+      "file": "archive/research_drivers/report_temporal_confirmation_20261009.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\source_snapshot\\report_temporal_confirmation_20261009.py",
+      "sha256": "957d46f96ab9c7ec62e345e5bf44a1bd9ce4521df378c82d0c7ebe58d5739011",
+      "bytes": 11484
+    },
+    {
+      "file": "archive/research_drivers/temporal_confirmation_20261009.py",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\source_snapshot\\temporal_confirmation_20261009.py",
+      "sha256": "924b128d61273ac0f3b3d5cd0795bc46599c69f12249769c462680662612bd14",
+      "bytes": 23984
+    },
+    {
+      "file": "paper/main2vPT.tex",
+      "source": "E:\\tesisprog\\fibrina\\transport\\main2vPT.tex",
+      "source_sha256": "337796b8e36af13de455aec650e9e919c0cc172edca24eabe38a241cdd398c64",
+      "sha256": "f6541494c052d7260bc5df68a88c40179173e8dea058398522946fa5d8a8e701",
+      "change": "bibliography path only, if applicable"
+    },
+    {
+      "file": "paper/homogeneous_pilot_sections.tex",
+      "source": "E:\\tesisprog\\fibrina\\transport\\homogeneous_pilot_sections.tex",
+      "source_sha256": "7bc0e67682eed15b9837c755d905c8dbcf285caa5f2e696e25771be4390e0ede",
+      "sha256": "fca3f62ee0cbcba72d0ff1367713462472089086e3d947efcf809bc787578440",
+      "change": "bibliography path only, if applicable"
+    },
+    {
+      "file": "paper/validation_supplement.tex",
+      "source": "E:\\tesisprog\\fibrina\\transport\\validation_supplement.tex",
+      "source_sha256": "97dfebb10b7a141f442b4b115c8c634e09c177a15f2b5f99f7e4eed2587cd7ad",
+      "sha256": "e93d3742052eecda257f7a2a1337eb87721b8c4d01a7992e93b8b5963f131d07",
+      "change": "bibliography path only, if applicable"
+    },
+    {
+      "file": "paper/refs.bib",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\refs.bib",
+      "sha256": "5dee36e61b2a2f854ecd641f15ad9c5c76a0135e364aeb2f57255a997162f0f2",
+      "bytes": 7411
+    },
+    {
+      "file": "paper/figures/figura1.png",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\figura1.png",
+      "sha256": "80c0546874504fd548451f9f1c724fe6028a6500eb0510a3ccbde218b6093904",
+      "bytes": 95402
+    },
+    {
+      "file": "paper/figures/figure_solid_50layer.png",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\figure_solid_50layer.png",
+      "sha256": "db79ae45b966db90eb29541fdface660a9433012ef5f2e0144a4f2ca99bc3ee7",
+      "bytes": 285519
+    },
+    {
+      "file": "paper/figures/tracer_initial_condition_vertical.png",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\tracer_initial_condition_vertical.png",
+      "sha256": "f121217edf1de1832ae8004475cd0e5c88ba947baaba36edbd315414ed824a96",
+      "bytes": 863534
+    },
+    {
+      "file": "paper/figures/homogeneous_geometry_tm15.pdf",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\homogeneous_geometry_tm15.pdf",
+      "sha256": "60feb8bf393b8728a4bab5b5b89905be34c3df327dde12b9c47076cffd465d4e",
+      "bytes": 20895
+    },
+    {
+      "file": "paper/figures/homogeneous_transport_tm15.pdf",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\homogeneous_transport_tm15.pdf",
+      "sha256": "cc4cbe5e6ba34e7c9424cd8259fd61f7978284dd833765ba71809962ad804e73",
+      "bytes": 135685
+    },
+    {
+      "file": "paper/figures/homogeneous_time_evolution.pdf",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\homogeneous_time_evolution.pdf",
+      "sha256": "fc3db7df15f7630e4c72fa3738f950ca2b7027effa1278328e1ff86ef1486977",
+      "bytes": 16673
+    },
+    {
+      "file": "paper/figures/validation/s1_h70_equivalence.pdf",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\validation\\s1_h70_equivalence.pdf",
+      "sha256": "a45b8f8802955092e7f5076d50cac7eb60a43f31a861f6d1c00e8bdcad2174d4",
+      "bytes": 12229
+    },
+    {
+      "file": "paper/figures/validation/s2_spatial_geometry.pdf",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\validation\\s2_spatial_geometry.pdf",
+      "sha256": "df92a27c26bf674021523d9336a7548e4d80c790a0c872dcacf95f4549fd5891",
+      "bytes": 14961
+    },
+    {
+      "file": "paper/figures/validation/s3_continuous_controls.pdf",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\validation\\s3_continuous_controls.pdf",
+      "sha256": "38f668060562b38fd219c8605eb9d0459ce5008c6dd7fef4260beb1f9372bb5d",
+      "bytes": 10160
+    },
+    {
+      "file": "paper/figures/validation/s4_final_survival.pdf",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\validation\\s4_final_survival.pdf",
+      "sha256": "a3bf1afa7f39867a1bfa3cae56cb828cbb4fa97ccce8db0306a337a096da7dff",
+      "bytes": 67934
+    },
+    {
+      "file": "paper/figures/validation/s5_final_equivalence.pdf",
+      "source": "E:\\tesisprog\\fibrina\\transport\\figures\\validation\\s5_final_equivalence.pdf",
+      "sha256": "e6d079c6ce2157021059a036fa612e99df36275bd75deb84023340e10551e8af",
+      "bytes": 10222
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/aggregate_metrics.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\aggregate_metrics.csv",
+      "sha256": "d7e892753933d833e80d2177c8f90608a531ef4dbfeeb55586fb45db2830ab11",
+      "bytes": 5287
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/auditoria_trayectorias.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\auditoria_trayectorias.csv",
+      "sha256": "ac7cc559b519ab24eeec9334185335980a908f1ba5e2c8aa643cb74f39d98097",
+      "bytes": 3351
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/cambios_desde_inicio.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\cambios_desde_inicio.csv",
+      "sha256": "e71b4a814e21385797b5958223b4c04b75d2dc964839082c7c93a7a9549972b6",
+      "bytes": 10027
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/cohort_inventory.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\cohort_inventory.csv",
+      "sha256": "c446b6301b72ea06771d2de937b8d9fd9e7fbf3f798c6f37c7c69391a48eba69",
+      "bytes": 19319
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/common_geometry.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\common_geometry.csv",
+      "sha256": "d2156bce04c5e980438791ab2618a6a43e6e80afee5173538203e7ff1e741c27",
+      "bytes": 37747
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/comparacion_numerica_seis_vs_nueve_y_15s.md",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\comparacion_numerica_seis_vs_nueve_y_15s.md",
+      "sha256": "53c1b9193bdc79d22caca36be83c351c7d06eab59cc7ef9d2b363f08eceeb97c",
+      "bytes": 1597
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/comparison_nine_tm10_vs_tm15.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\comparison_nine_tm10_vs_tm15.csv",
+      "sha256": "51b2a1b73204aa7b2aeaae8eff53784404ef4b003845d300ee9418a52f873833",
+      "bytes": 1604
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/comparison_six_vs_nine_common_times.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\comparison_six_vs_nine_common_times.csv",
+      "sha256": "4d6947b0e5dde64722ee235ac9d9c78a4294f44638b296a1432679f0aca3d590",
+      "bytes": 3088
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/connectivity_summary.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\connectivity_summary.csv",
+      "sha256": "e880c37c3006e7e75ff5eb08d0aa72d16376dbdb631795c1f34e0e4edb31808f",
+      "bytes": 4533
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/consistency_checks.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\consistency_checks.json",
+      "sha256": "9bd675a6ab66f4c9c58f3f032ce12caf3a480b6e3ac9c0e125a2c174312d83da",
+      "bytes": 370
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/contrastes_tm15_vs_tm10.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\contrastes_tm15_vs_tm10.csv",
+      "sha256": "d85e987b113d7922ec84bea813639ba779e45fdbcf232d734935b7790a9d369b",
+      "bytes": 8806
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/contrastes_vs_control.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\contrastes_vs_control.csv",
+      "sha256": "aa112fe21382970ac51b71a4d52c672f16285cd64ac24881b579a153981461b7",
+      "bytes": 19149
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\execution_summary.json",
+      "sha256": "c797ea4f17f558708412becd8c558a20a1aaeb2446697a0dd87e9e5a8b5c2f92",
+      "bytes": 346
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/figure_manifest.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\figure_manifest.json",
+      "sha256": "bb005b92f56cd88cc3564f5cc99b111ed70a37bf929ef081d3f7b15b4985d232",
+      "bytes": 452
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/manifest.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\manifest.json",
+      "sha256": "28ca4953d868d0bc579362e0d1aa5528be853b585fbca5c3c6266714d19ef5be",
+      "bytes": 5168932
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\protocol.json",
+      "sha256": "35db7df5702864ef660035d900396b99c552ac27226c85ec9e0f7d714ae2a073",
+      "bytes": 1145
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/provenance.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\provenance.json",
+      "sha256": "e05fe5082767b7c6cde52f287b6cc0bc8fe5f50e091986c81b563b87249375fe",
+      "bytes": 502
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/results_table.tex",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\results_table.tex",
+      "sha256": "d966ae714759e0e45a7cc2b316b460e2b6b907053e9247999f6b4c0a49631784",
+      "bytes": 2107
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/resumen.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\resumen.json",
+      "sha256": "1b7c40840f2170fcdb2fabef9d803e4d6bb647ceb9a05c4468984b2c397f28fa",
+      "bytes": 4483
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/sensibilidad_al_horizonte.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\sensibilidad_al_horizonte.csv",
+      "sha256": "039a9e45b60d0fe78b0fcfab210333dc4eeb79a9f1745ad927eeaf3c4cf52d3d",
+      "bytes": 23766
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/historical_batches/replica_5/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\historical_batches\\replica_5\\execution_summary.json",
+      "sha256": "97ae80cd39b1c4176795c3b32a3d6c939a24c4c6517e6753d58c43cf010cb8ff",
+      "bytes": 44500
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/historical_batches/replica_5/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\historical_batches\\replica_5\\protocol.json",
+      "sha256": "244fc3859934f2e5beed6a07640a60bb211add893c174f99c3f9bb4b7cfd866d",
+      "bytes": 766415
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/historical_batches/replica_6/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\historical_batches\\replica_6\\execution_summary.json",
+      "sha256": "655fcdbc8cb7788735bd8796667a0a03f562850cc6f1f3372dea094e6d989084",
+      "bytes": 44475
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/historical_batches/replica_6/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\historical_batches\\replica_6\\protocol.json",
+      "sha256": "552527133d5d36c08abd365e92a2b3bfa821f7b6f0b49037dcf5a6cab7c32b44",
+      "bytes": 766655
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/historical_batches/replicas_1_2/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\historical_batches\\replicas_1_2\\execution_summary.json",
+      "sha256": "86eaa9dd3b66aa3d13f5455389354998d598a2bfe05ba57fdcb5d6e34c3ff0bb",
+      "bytes": 104342
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/historical_batches/replicas_1_2/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\historical_batches\\replicas_1_2\\protocol.json",
+      "sha256": "30ba74e9d20a644dcfa6ed7d59e6ebfd0675ab2dc7ff2de3177a9f1efdaa50e6",
+      "bytes": 107694
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/historical_batches/replicas_3_4/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\historical_batches\\replicas_3_4\\execution_summary.json",
+      "sha256": "e345cda2f27e14e7c82fb1ce56dca85f9f1ef4a2283e00019b74c8339e517898",
+      "bytes": 89943
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/historical_batches/replicas_3_4/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\historical_batches\\replicas_3_4\\protocol.json",
+      "sha256": "314ced831f342f06a4ac67b12388ccc29fa1934aa4d342d62038a38bf8674c4f",
+      "bytes": 1436512
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/new_replicas_and_15s/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\new_replicas_and_15s\\execution_summary.json",
+      "sha256": "304ce2ef52032fd09ef39fe93e6e1bdb568862fdd4656ed484fd32243204bf70",
+      "bytes": 322337
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/new_replicas_and_15s/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\new_replicas_and_15s\\protocol.json",
+      "sha256": "88a2361dc713bcf4458747c8a7e3a8d120b66bea20b58bc309fb8dfcc88e12fb",
+      "bytes": 7297366
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/previous_six_replica_consolidation/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\previous_six_replica_consolidation\\execution_summary.json",
+      "sha256": "c4c576b4457e210d5a06f1f19950a6c292f2176d6379919c883051e1ac83fb56",
+      "bytes": 232
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/previous_six_replica_consolidation/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\previous_six_replica_consolidation\\protocol.json",
+      "sha256": "1822ef4f22f9944c796d1d141328cff354d773e872c3eee3dc61f2a783a659e9",
+      "bytes": 986
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/replica_5/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\replica_5\\execution_summary.json",
+      "sha256": "97ae80cd39b1c4176795c3b32a3d6c939a24c4c6517e6753d58c43cf010cb8ff",
+      "bytes": 44500
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/replica_5/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\replica_5\\protocol.json",
+      "sha256": "244fc3859934f2e5beed6a07640a60bb211add893c174f99c3f9bb4b7cfd866d",
+      "bytes": 766415
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/replica_6/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\replica_6\\execution_summary.json",
+      "sha256": "655fcdbc8cb7788735bd8796667a0a03f562850cc6f1f3372dea094e6d989084",
+      "bytes": 44475
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/replica_6/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\replica_6\\protocol.json",
+      "sha256": "552527133d5d36c08abd365e92a2b3bfa821f7b6f0b49037dcf5a6cab7c32b44",
+      "bytes": 766655
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/replicas_1_2/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\replicas_1_2\\execution_summary.json",
+      "sha256": "86eaa9dd3b66aa3d13f5455389354998d598a2bfe05ba57fdcb5d6e34c3ff0bb",
+      "bytes": 104342
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/replicas_1_2/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\replicas_1_2\\protocol.json",
+      "sha256": "30ba74e9d20a644dcfa6ed7d59e6ebfd0675ab2dc7ff2de3177a9f1efdaa50e6",
+      "bytes": 107694
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/replicas_3_4/execution_summary.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\replicas_3_4\\execution_summary.json",
+      "sha256": "e345cda2f27e14e7c82fb1ce56dca85f9f1ef4a2283e00019b74c8339e517898",
+      "bytes": 89943
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/source_protocols/replicas_3_4/protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\source_protocols\\replicas_3_4\\protocol.json",
+      "sha256": "314ced831f342f06a4ac67b12388ccc29fa1934aa4d342d62038a38bf8674c4f",
+      "bytes": 1436512
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/state_metrics.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\state_metrics.csv",
+      "sha256": "d33a4ba899a59f42dce6114d1f5da971a65aba93b653644de581f1902b6eca2e",
+      "bytes": 40569
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "ce6858da9f62fcb9e429a5bf688ec73f95177930999df408fdf215b402573610",
+      "bytes": 5064
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_0_tm0\\transport_merged.csv",
+      "sha256": "aa5f5813e18096b18eca77073fbe260a73cd0ee2aa24c7aa7188d877bca1d842",
+      "bytes": 46713
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "962d20a031100019ee62b95a2f9cd79d3565bbf1189945736b3a6ba23c829a98",
+      "bytes": 5074
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_0_tm10\\transport_merged.csv",
+      "sha256": "d1d69e282f925481f3a827dd9308d1853956d1aeb2647f37bbc50913c583f2b0",
+      "bytes": 46592
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "129fc3f19d0c65d811df1ac0a7b64afd3954b7d65e83190b95e1776df4a4d069",
+      "bytes": 4865
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_0_tm15\\transport_merged.csv",
+      "sha256": "b3d4bdd8822986a2cd3d091c9a7774940a4b3f200657368a3363cb8f4954be00",
+      "bytes": 46310
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "1d4fb076b0c9ddf41250d78c830a6e234356e564ed2e760c634cba5c296c263d",
+      "bytes": 4995
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_0_tm5\\transport_merged.csv",
+      "sha256": "10591a4d1c1cad90ffda23d3d6beea5a4902c96ed87eeab5a53a998011d3eace",
+      "bytes": 46648
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "fcfdf7033b4a175a48a1f787060a15e671fab74e1e3058cc23cdf1826bf5d8a1",
+      "bytes": 5073
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "2525521f5f31d8ba5d0bd612791d4c6e402cc0b82cb30ff868d2b8ea4120fd97",
+      "bytes": 46870
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "6e3321ceecf2a4f7cd229525ecffb17fbade5cf876da24f2686c47927da9857d",
+      "bytes": 5062
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "991455177371da472a694e513935806b9597483b20010aa2b11fcc09da30d023",
+      "bytes": 46782
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "d20a6363a0c1966caeb73133df5862ccc7a0e7d4e1361dc846b685f3a64c40a1",
+      "bytes": 5290
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "754d2df853fe471d2be2e550b15e65ca08ee924918857ba5dcd07e2279508dae",
+      "bytes": 46995
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "07325569f8b6c9a75c232ce57c113a95661c5a1b08e04cf97eee2f1bcfc3e816",
+      "bytes": 5074
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "16bfbf344ece406c96b48badd61319778e34d1b9fb2f5b46438da16f81f95e5a",
+      "bytes": 46753
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "4057d93df0c176ae5ef33ed0237f3d1b6f76e4372e2aadd2becae02097238264",
+      "bytes": 5217
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "23bca483c42edd340d5aff706ebd0ebd801489cf5ab916cada707f2d6cc70742",
+      "bytes": 46893
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "10cc61667e373c5b2222d7bafe17753ed2c8bdf4c253b7ad5b17d84ce172840c",
+      "bytes": 5046
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "341628459054598380c9d09639c2eff1480de6fba19f33c0f0970039b41e68c4",
+      "bytes": 46841
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "13ed978b8e0633a073ea0b213249c59588e9e25cc06eb9d07f037cf797dfc606",
+      "bytes": 5194
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "dbf44c4e7c9efeb26783225c04e3ef519635b684b7faa53a43ac20ce1187b8ab",
+      "bytes": 46947
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "5a935e27180bfd44b4749239cf21bd2c6434cd0b0ca83cabdc93bdb0881cdf6d",
+      "bytes": 5118
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "50607a7b88a1e1d0f099cc818d4345413ed6a5b9020d29af1e4fc34c5919ed76",
+      "bytes": 46794
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "e24a2bda01b09d874f0eea2b45926eb20c6de5f7377076b2ca7c6d3231e27826",
+      "bytes": 5127
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep1_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep1_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "181458780b47b9b8ab80f5222c62cf2190f6c86fff84f471c7abd34b851f285d",
+      "bytes": 46878
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "d23ad999bcb5463de39134a2757f6ed111fa43cc2b02d28e4a3c6fc7bd94c7e7",
+      "bytes": 5125
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_0_tm0\\transport_merged.csv",
+      "sha256": "c12c6744fadeccc57e8717f7716eb9a3a36297c4979397b229a4fda401c9e55f",
+      "bytes": 46915
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "aac5a4633dd65b926356b724dc28e674f2e9bffd458d6760c8f2e5e8141524d8",
+      "bytes": 5187
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_0_tm10\\transport_merged.csv",
+      "sha256": "2caa657dfc75cdabd816c9a96136847a899e85a14f936cbf1f69307d41dd6fe7",
+      "bytes": 46848
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "d2780d8976957a9ec715e331ec84333193a2ecd676bf067defdd6f79ddca10eb",
+      "bytes": 5141
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_0_tm15\\transport_merged.csv",
+      "sha256": "b02ac31c30d90a54b51c3a6d43e6e85cb6dfdf71327bf893dbbd7dd600ef847a",
+      "bytes": 46897
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "500ccef77fe83fea5812a5e58871ac551d625f7eaedb2c1f40a2176c6f598108",
+      "bytes": 5176
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_0_tm5\\transport_merged.csv",
+      "sha256": "9bbefca592e5fa68722161f6a25e01a8180fec92b12f847d0f121fbf69b2a9eb",
+      "bytes": 47055
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "2b835771c26682a6d65bccf445dcde0d33a6ca6725c0a219361e4abfa2e414d6",
+      "bytes": 5321
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "e18c88ffed3a5af6e085efb3be04e32fbee17d75f10668586567030d4cb9ed0d",
+      "bytes": 47124
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "8a5254f3a72e0f78919e7b03e2ca0c2ac98bde36801c87a24bdbb279e8c42940",
+      "bytes": 5323
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "41ac9526d650819861419ddd1a4b9d9ad00ec8a48b9d91d0ac9bd509ba9d9929",
+      "bytes": 47047
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "31f7cd3de7267479aa3d4668a1ed400ed703b1d4895cd66ef0e1f8d7d5c4df04",
+      "bytes": 5227
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "8b4eb4b4186a49e996261b2991cb9b65d874459b0d358a9d6d42cac39f096154",
+      "bytes": 47104
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "1d647d14561adabf7651e3f4394adcc86d0901ea5206f51ac090d3d0001ac464",
+      "bytes": 5384
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "8653d7cfc2a3712d913e8711d17794fd25f98c4634ef0d6c0c6295778e1b32ee",
+      "bytes": 47107
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "8ee3d55ba66de85027c4bd572c7f46ec61535d2fff90945c0db262ef5619df5a",
+      "bytes": 5340
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "89114bc63d257a18f59d87c5fe9313c7b515b9c183f427b7c01d172ee67224d5",
+      "bytes": 47121
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "48ff121d5fab2df688cd4a80f43dc4c988f03c096638b37505be6abd9d0b8b84",
+      "bytes": 5277
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "74ac1b54bddabc0f6e96219ab7488437cdb2826375b9431fb8ae2c2677f00467",
+      "bytes": 47177
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "7137a2478341addbaa85fd0855d0de1672c744c57690d8165735e87b01ced7a9",
+      "bytes": 5438
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "ae4bfe944586b73c7ccaf59442feb8c1b227314b143009553b5852546a1a3d9e",
+      "bytes": 47227
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "e95cbb4c2bd2827a8eb9d4c4fdbddc85125477564b19f6df158dbb6a19676d43",
+      "bytes": 5346
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "8be25a00daf9f60fe9df6ce1382e7ac5f5e1d1b1d5c7cefe8ba1b44b22c1d43f",
+      "bytes": 47168
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "6ec08da9535ddcb75755a1d2b172462e3c7cbc8f7d2acd0e328dd0cb653b727a",
+      "bytes": 5284
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep2_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep2_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "f80c6045f676ac827a30f55afa3356879a5e326fdb3778696399816ae89f564f",
+      "bytes": 47015
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "a363ee785551e3584a2c55d2613a52659dd1cb402bcd8f36cf2a8835b336993d",
+      "bytes": 5214
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_0_tm0\\transport_merged.csv",
+      "sha256": "4ead8803d52ae245b378277e8bca8b024201820b2ce2c41e8c9baa89047322c1",
+      "bytes": 46870
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "b476a899391ab7fbef495f6695bdfd7a3c9d0209bf8fffb12e7989c2f91202fe",
+      "bytes": 5192
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_0_tm10\\transport_merged.csv",
+      "sha256": "a0f206240ec046ece1bd08191ce7d7cf80d6799ba9fffec73e898d4d3c61dd7b",
+      "bytes": 46779
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "5242b7d7df6b69b136bda5fb67cc9619620684812a2109723591081732274f8f",
+      "bytes": 5153
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_0_tm15\\transport_merged.csv",
+      "sha256": "6e328be7d267c8fb93d7045f127e5f6fe30c4dc9697d79e25f52a6d12c492262",
+      "bytes": 46724
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "b3b68b6063fc7a395ed51e4928b231ced5aaecb053c897e832e367edd74dac9a",
+      "bytes": 5260
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_0_tm5\\transport_merged.csv",
+      "sha256": "6bb09870f71ead5657363ccae267efe083a72b5cf86baac8e641343850e34a2d",
+      "bytes": 46788
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "c3f87ce39ef4cf9689c019a2119bd520c10338c556839a365ad4c129f2554953",
+      "bytes": 5194
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "dbefedaa46139c2bae4bd61baa9cb9c9958097e13c4878511a9bcb536d0dd45d",
+      "bytes": 46797
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "3b3fc5b27445610afe21d23f740750b56462727e49a99db44ec16d1e13e897b8",
+      "bytes": 5308
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "7cc383dfd95cc065def8c9ff567963e575f87116ddb8f3d15ff60082069f32cc",
+      "bytes": 46910
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "d7b0d4916e6bbeac27e7fff0ecb02f882566e48765e7a7bbdb715fcca18d6a98",
+      "bytes": 5254
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "ab41de90d4f13b81e8de9b6fdcff444caa6ced9873a6323bbd079e70c848db64",
+      "bytes": 46869
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "d81b35bb188b65d5ecfc794860f9b220afa164e21c39f02a94bd1b086b8d8cb3",
+      "bytes": 5305
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "1bf1c5cdca861a54f10598d95afb831d74621ac2bcbf658bf3204b3a6dde641c",
+      "bytes": 47061
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "7d45ed59cf3244802b4afe89b5405819d36503c7521111bd58b20d77190c8dfd",
+      "bytes": 5333
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "58e4f37d775d3637f3c4a73d1bcacecce4eb39d6b7037be9fb218620d13780eb",
+      "bytes": 47184
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "d6e0a5ed3cdbe39944eea37e80ee4ad343a8f75d1af8ba2dcfd45511bbe36910",
+      "bytes": 5183
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "abc35b7ee3b0f37af86c5c752223bed6f8f5a302a58a33e4e31b054aea027692",
+      "bytes": 46953
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "8142679ee633ed6e1b13827d6f890fbf9c63825c88bf1a0e13b5ee7eaf368cf2",
+      "bytes": 5358
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "cf4b9da8653a30510a112bdd86d01ed6829b5d8144635c51e9cadbaa1186d2f9",
+      "bytes": 47034
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "d8b02ed1f30821aff2811d343150f504c6e4ccf831134ff7d63ea0630b131df2",
+      "bytes": 5428
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "df79ff48176fe325dc975b4c4dd1e34070b735a1a3bf0e1ea9082e2b0f9f5483",
+      "bytes": 47087
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "aab6a38ad4bf3d4a92894afc407fe3eb0baa011755065078445a049fd8864e17",
+      "bytes": 5240
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep3_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep3_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "d557a7ba0ffc6b750fc1e387ddd7b392e9d19078af6a948a2128bf2501653549",
+      "bytes": 46857
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "a51c958f2fa00822dd6f70f8722ddc51cd5908f908a581f21a2ece556507205c",
+      "bytes": 4652
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_0_tm0\\transport_merged.csv",
+      "sha256": "450234e6b2e0dc4501698b1febc77d96ba58a7405ff646d1f2b34228a30191a8",
+      "bytes": 46129
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "82839841ff9733d4ed572eed63d205590f8f48eea6e778a9134d230d2bd55b43",
+      "bytes": 4450
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_0_tm10\\transport_merged.csv",
+      "sha256": "7cafab7f662722d14c7a8ca859d2176a3d34e66bb98076d427420fd9919b5e53",
+      "bytes": 45940
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "2b4acdd5caaf369f06e065373a2c76899e3b0adc8d9f8e946d0005922add99a9",
+      "bytes": 4537
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_0_tm15\\transport_merged.csv",
+      "sha256": "67ec60b278aae0a2491cd13bec25b534ee979f66cdaebf34af7c3713b82007e0",
+      "bytes": 46012
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "e55c30ae178a21cd06cc5b8d9177c593e6b9a906d8def66fb6ad8554ad11986e",
+      "bytes": 4539
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_0_tm5\\transport_merged.csv",
+      "sha256": "039d08b809ad7e9c7a7683286eaedd457d839de7533a9a23073266647add8f57",
+      "bytes": 45949
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "de510508d3c85a0480772b5b8d7158acadfc6b8a3e02bd00aec55d95bbc60fd4",
+      "bytes": 4952
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "fbc2b5adad76858d7dc7b16be86d21daf55c3b4e540778ce0755707ce1fdbce8",
+      "bytes": 46609
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "a8f564fab89f07ff04fbc37e01bdd788e405b45baf853ade947f59d173aa015a",
+      "bytes": 4930
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "5191d672d363d518781fcfe46b3b3ecebd71bd6c9c2712bd212e949d57e69953",
+      "bytes": 46598
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "d357072467b5768728ca0437ab5ea95e291ab43ddc3532b1137dec87dff1a151",
+      "bytes": 4852
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "64b3961881edb72449409be662f538ca73ae2ed34dbb3a6f9c443f22bcab142a",
+      "bytes": 46315
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "b8b09b15bc16a4f687eb9c42a5773228fcdd084e1378f94f763c311d9b96a2ca",
+      "bytes": 4983
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "23a2a25ab12ccca294ebc5d336601f4480434bbcd93fcc54c2306213f48a1ff6",
+      "bytes": 46481
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "cf982f8baf5b2970cdae251031059352930826d7b5b2b8b4d0017620d779e762",
+      "bytes": 4901
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "cf05dc49c020acacc4bc4544b5962ae9382f06961b372b1afc91bc174b60576a",
+      "bytes": 46443
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "e5dad1a97bd675101e0e31bc87e8cc90409b99c152c73b84441bb8bdcd1c390c",
+      "bytes": 5049
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "bbd7d2c66971809d24cbfa0d44eb9eec466cc6edc67c2b397115aafae3ceece6",
+      "bytes": 46566
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "697b8a369e8be2b6af5b54bbd972663325d7e73dfa4ddad33e69548c6eb1bb69",
+      "bytes": 5129
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "63bd3fb1917b641abf55b437577f1b988d8587d518db97f0a784045ef2385642",
+      "bytes": 46624
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "f0142d3fbd56bcee9fb89a548d6e7564c164f1fe2b1f78924d6a4021aa05d9af",
+      "bytes": 5030
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "fd331f0b4b139ef5b187a6949b4d2529e0d3261e572885e54d3a27465b1d3a3e",
+      "bytes": 46687
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "f34b35ae264a3764717f389fb85592da2d13a33400ca026a5a557918d1a83a42",
+      "bytes": 5118
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep4_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep4_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "bddee6f4eff6e15a0459687cbc06b8c4e4e1ff70ed6f107d46545719d94084f3",
+      "bytes": 46734
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "7b28a0d5779d9faee363476ab7f859d2e6a5c7757027032cadf8c075dc6d6b0e",
+      "bytes": 5250
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_0_tm0\\transport_merged.csv",
+      "sha256": "0faa14c3fd27c23e1ad8e8ca47ee4ca726037a21c60615a3b74a996766ab7e49",
+      "bytes": 47123
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "a66d767f3da0d871b3f769daa64506798b49bff1908394d0869c208f6bca40bf",
+      "bytes": 5163
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_0_tm10\\transport_merged.csv",
+      "sha256": "e23dc64255e1cd610b5860417f2211a7c235f6ac369b3b547ebbfd4f4aafadbd",
+      "bytes": 47017
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "7a78b4837feb7838006958918c6ce0e8ef7a04d39e751e8a4867b4c39d6e475b",
+      "bytes": 5215
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_0_tm15\\transport_merged.csv",
+      "sha256": "6f891122f3ace1fb5fd24287a6b47c808bb54292ec1a1366164edefaec5cd152",
+      "bytes": 47155
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "54f5883924c5692c62a33a7c8255bedce0f6154db0babc26abc5b23dc80e8628",
+      "bytes": 5191
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_0_tm5\\transport_merged.csv",
+      "sha256": "74cded6686fec9e3e6783f0207fddc48a7c5b9cf6c53e0558b6fe94cdc0fa5f4",
+      "bytes": 47096
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "98c2b8f4dc3dddbfaf2111c22dadf36f4e8fabc6f903e051a2ace03f78aade21",
+      "bytes": 5335
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "1da77a7854f3f9ac5e0eb2ba3401ba831699d3ebbb231db6b9c43c68d2a2e384",
+      "bytes": 47167
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "7f829447c58c7bb77515a52d2ce6d3e90043acc9610a2d6b8714c689fc57bf80",
+      "bytes": 5294
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "ec474a5b423f5bc811c68d0ed6ebdfb84d474e3b19b43b60b07c070ce5b93245",
+      "bytes": 47155
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "89ccd3c1f7ceff44cc3ba50c4fff8e91ac0258500c5fdfc9d25a61d02b63516b",
+      "bytes": 5225
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "a572723a291da1966ad91dd7fcf37e67df234231f91c55151f166f9ba3ebb485",
+      "bytes": 47078
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "ff050fc0ca2f1acf50effc601673469217650e44af6d9f9a55e9b3bea68087f6",
+      "bytes": 5282
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "939c2f53427ae120c1f87f93a6d0065b37588f09a68b6e443737212065b92553",
+      "bytes": 47086
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "68152e44ff2c99ab8cbe63ae50d56426bf1f4f60741ffe0ea8e62ed9012ec86f",
+      "bytes": 5332
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "cfdba748eb586ff9adcac1374603568eb77b4cfba54ad86e515a03a83dac326d",
+      "bytes": 47046
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "c1b561615bc83abf42f9eb70ec6d67ccf3a2e443be3bb5ad1df91c5e5e8a70e3",
+      "bytes": 5323
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "00f7288c10bc348ef4cbf72e246411c7c8012f8f877c05bc9000c556241de3be",
+      "bytes": 47240
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "37067a42bb4cc482793cc7f8fd1cff06a0b205ae6608732bb86db6e5c569eb1b",
+      "bytes": 5377
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "56fb59aa2fb41d18ff78a8e16dcc6041d53c4b67e54ad21390a5dc4e0583aaae",
+      "bytes": 46951
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "cfcb5c85e28af2e98acb94be427ec8b987c71d26b0d66a03dff5f0427375ce26",
+      "bytes": 5376
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "ee48d7fe28eefbcc051bc847dfa63dd36816cd26b8f13f6b15ab89569b18c033",
+      "bytes": 47124
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "137c9897cd8a760c847d39dd1cb32395aeb99e3788d2cb415703818f0214a41c",
+      "bytes": 5316
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep5_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep5_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "7d2296db419e98f61e2e4a105afe441860d6fcffe2a4e072cca75fbba26a4859",
+      "bytes": 47056
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "984fbc523721d5a9667d1fe0839236ab33f224e6d4c91bce9614d7eea75aedc0",
+      "bytes": 5001
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_0_tm0\\transport_merged.csv",
+      "sha256": "e6f34082731f3d677b6999335eea84681cda2b1234bb116c34112cdaffbd8f55",
+      "bytes": 46776
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "d855f5eead828db5fed198b9c3a410b04d245d31f97a4aee685723a5386f9d2f",
+      "bytes": 5071
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_0_tm10\\transport_merged.csv",
+      "sha256": "b1f35e5292e5f1ff2cd891d8a614711502bc7e6d754d415bdc7488411bb5ef2f",
+      "bytes": 46882
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "2ffab1931282101f476b3fb9a150d0540dd47ce82a1e27cc85f791a541023787",
+      "bytes": 5036
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_0_tm15\\transport_merged.csv",
+      "sha256": "7370b91231dbcfc50a2fad92f091d70859ec6876a95ca6d9c0cc148c769dd05f",
+      "bytes": 46757
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "4f954b59f38a2a007bbbaf4167ccd3764a66d98f5e5169a8c000d4b4ac6595c6",
+      "bytes": 4985
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_0_tm5\\transport_merged.csv",
+      "sha256": "7a46d9c290217292bae7618441b68179824867a860aea279d71aae8f5f5901dd",
+      "bytes": 46766
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "94f5e019ede59e926f0ad5627baaec24eb3a93b227cadb47a62801674b10ff07",
+      "bytes": 5043
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "198306bfe0ca9a716bd02aaf90636c3386bdaf7b28cbf5f66fd07e474788442d",
+      "bytes": 46797
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "7a79b90eb7fcaf42a71a483b3cc92e0097e2d1f5ec4d53d4aa940209fc14ce9a",
+      "bytes": 5161
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "830d4e1ca6225750285c5a1479fc07c9476cd2b0051fee696ed96249e4a6fd5a",
+      "bytes": 46781
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "eff8cd235e7cab22184882a95974773828981ef7dfdd27f8d0ac23b1604adc18",
+      "bytes": 5187
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "099b4ddd6a7fad8af758859602df46d62ad3d71aa2c55be7f9dd5ee8b6957f2a",
+      "bytes": 46935
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "4781db499796100383dfe238753ff3e68dd62912dfe7c44dda8b47c59acf2812",
+      "bytes": 5138
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "33af82dfc7e23dbe252703f8c8fab14e8e8ae822ca9959e109ad6443ca391178",
+      "bytes": 46687
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "a4449cef71acd2b603d511e3479ab5cf79605d326527e5df540380af995906df",
+      "bytes": 5258
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "ea2fd7db9d6dcff5e55724c6457482c7f18f1e4a6da0cbbdff5c853c2edd8cbf",
+      "bytes": 46888
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "26b8fc0615ff0d92b093dc0e130af011819eda49240a7aaa16dc022858aeaef1",
+      "bytes": 5206
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "80acc5076d18482e944f3687988ec56fc90861575458f68977f066ab7b9bc81e",
+      "bytes": 46874
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "5af78b12be4e16fdccbdee1c346a9f052b43f73836fea2c3c2f85ac5f8053f1e",
+      "bytes": 5097
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "952ae9e57cb7126b0abf41fba4122be8ef88b8df49d289c130316f7223b1a31b",
+      "bytes": 46726
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "fea20f5401d1659ea7af9e3f5a5eb9d2edb2c86cadb7b4666ab89f96f0a30df2",
+      "bytes": 5179
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "2124421073c4d89b26d99e614d4c5f5568ccac50a89e4ddc4ae102b11dfaaa5d",
+      "bytes": 46826
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "8c353c91e48450c77595d192b523c06e8aca70801624c5c72ff529c6f767bac6",
+      "bytes": 5186
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep6_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep6_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "abfad20d25b1277f1b3e69e2a09ab4146ba8f5a4273f7ac5e6f0faf7f7b6a3ea",
+      "bytes": 46770
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "82396dd38f6e2caee62d7e56231991615fa465a414ba4f213213af6ebf03e379",
+      "bytes": 5396
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_0_tm0\\transport_merged.csv",
+      "sha256": "8a08bf80c4ce230279e1b0ce4dd7003dd9b73c59736a64e22f864957b4ba1cba",
+      "bytes": 46899
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "0ab641fd05599b6f6ebcb4c62d1e5f03da8cc9a59ef1277f09abab7d58968d18",
+      "bytes": 5316
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_0_tm10\\transport_merged.csv",
+      "sha256": "6b031be9d82207df6e259d1da0e7a63aa365f81d107ebdd7c4129e052d6ea640",
+      "bytes": 46855
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "8f741f3f0ec24ae974d5819194182e99d6a0dcba643ae754d3c1833cbd901116",
+      "bytes": 5279
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_0_tm15\\transport_merged.csv",
+      "sha256": "e45536edaf0878545cae2d6b6e3063b5e43ab0b575e7eb5be1d67c33a834803a",
+      "bytes": 46812
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "286f336bc447b3ed66803ffbb550a159722edd5b78be3972b15eb1fc0c6a1ffd",
+      "bytes": 5411
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_0_tm5\\transport_merged.csv",
+      "sha256": "ddbfd424210492a7b0a4915eba75cec8abfde938b51dce5f4774e9efb2a258c9",
+      "bytes": 46980
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "2e16d533ae68ae66b996975050980b6bf8b02f719e95ce24d257b406e2214485",
+      "bytes": 5350
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "50f5b70849fa4b7537cf828c599bf5f9a18050185aa16a7950d95d7ae4fb9b54",
+      "bytes": 47042
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "27d23ae771c484a4c13761766293d82120405b04f27b709190324f3027a91944",
+      "bytes": 5397
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "94c5eb141670524a826eb429220e1bfe6ecd70997fc651f503b1204371bd9d2c",
+      "bytes": 47146
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "1487ad079c395ae01d1e8705b2d228159a5574045d4a4450dc62b8dcb62e9220",
+      "bytes": 5363
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "6b52931415241fd1b1d0484e95f1db1d22ba7bb7bdd257fff10f8463acd68fde",
+      "bytes": 47139
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "0d1ad3beb656c6ba524e4d1e41772db39575b5600b3946050624e643f93901f4",
+      "bytes": 5312
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "932232212c05094c5fa6d0d4acf1c640fbec0edff5f7a8c533a02d04d39a068f",
+      "bytes": 47041
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "6ca2170944a3b9a1090b3b94d5083aaa799abc874839a454c1208f8762703730",
+      "bytes": 5387
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "90433cf41cdd97b6b6cb9430005d2537a212b7c4db960615ef083b3eb7f2fa86",
+      "bytes": 46984
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "971e288271b1877e9f9ec46afb799785c46087ffa94e6c5c0baeb009e1f14d76",
+      "bytes": 5465
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "a3391c896273f9beea49785ee1a14ee34e6cc10fcbb3210644e5e9d76e160720",
+      "bytes": 47285
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "68ca91871c88b9dfb6dc83c7545bba56c078939cb341b1bf5c9b19d21be2ea3e",
+      "bytes": 5398
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "03b5de4b1badec19947b0a11687c0f330416d47dd1490e735ecc8ad2a3a3c769",
+      "bytes": 47048
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "32af9f7d78e9de5e76d816fad5bd12afc7ba3ded3df674becc7905a9f4c3d4c4",
+      "bytes": 5427
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "b9c3a094ade0c5ee5e9a7e10514df5d586401e1b7b8166cab468a91f3f8cf763",
+      "bytes": 47056
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "9729b3b78d4b5212fe7b39afb3f1bab66631c40256374ed6c15b81f90c3fc070",
+      "bytes": 5411
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep7_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep7_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "b15461b3cd61534540d9ec9ef0cacb3992b1a7c9bf4b913882cd6ae13ecf98be",
+      "bytes": 47207
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "3645968cd41974ada212211c384d8a35a4d9c5d2aa501d593ad8d49bdd53881a",
+      "bytes": 5367
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_0_tm0\\transport_merged.csv",
+      "sha256": "67fd831d64fb688b23265ed3308f4f6e062501ba05ede6a04f3366b685eb87bf",
+      "bytes": 47041
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "eb00bd9f75882520dcc03b47bb166616f2343153d94d056af2d0dd75b1075eb8",
+      "bytes": 5355
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_0_tm10\\transport_merged.csv",
+      "sha256": "621a7efc77ae84942bbe714e8ad33e8fd945242bd426f748dca2e47595f82ec9",
+      "bytes": 46978
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "850d04e480f95f898e98efb5c615b56487fa1eaa21600b1acb5340441fefce60",
+      "bytes": 5310
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_0_tm15\\transport_merged.csv",
+      "sha256": "9158f6556ae2d935a689dfd5e5d9ce425e6dc58b504c196a8781dcaf604b546b",
+      "bytes": 46922
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "2981e3be9045fcce4fee1276f8e12046c16380b680c0c36e4ecacec137f56653",
+      "bytes": 5302
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_0_tm5\\transport_merged.csv",
+      "sha256": "f8f94e49ab715e074a73fc821c7dab4510c9222d5c8d1ad709b17f39cca4482b",
+      "bytes": 47016
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "95fbb5e2bf983192dae43229b7c227e039bd66b0fbe3dd49987a6dd36876cc10",
+      "bytes": 5280
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "4c6689a360d557f2e33f1c2517d81e94a4a64656e23b5e2eceebe00c613688f8",
+      "bytes": 46693
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "3ec8f0b8cbf7ed316b826213f2ae6021f287ca26b2ce2520d79b1dc49af72288",
+      "bytes": 5343
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "76abf0f1e5da27e0d1116762ae982b3f95e9bae5a0239effe0b72bf9a8dda0b5",
+      "bytes": 46921
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "8a6989c6f907e884bf6166f81393e5c50f7d06bf510cbe3e0a0e74cc378193a4",
+      "bytes": 5266
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "e5b33513307dd50f07aef6e4aac031bd8363e5f3f74dbfb78bd070a29fd4b525",
+      "bytes": 46824
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "a96cbd4a3d15be1849f75742337692f2f89d748a00d9cda150bc3c2e968aed1a",
+      "bytes": 5308
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "ad4a3a36df4484a8969f7a797ab3f76de157c1bec01a687c62311a67a5d1a45d",
+      "bytes": 46874
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "1dcba37612aac40bab6da552380956ca8abcddaa91eb28365961c347adde7bdf",
+      "bytes": 5347
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "57f2c93251fe25604067bbb0bbc299d9e06b34834425fc7bc8a9720bde82c591",
+      "bytes": 47119
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "432058787aa4121711890c90e55914e3fefbf12357393ad950e24122ef2c6e9c",
+      "bytes": 5270
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "6b898296c3af563918ca272bb7a69b0d579d540a0351fcbb9d6d7b3a925e15e0",
+      "bytes": 46906
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "0c01f4523c2edbb60565afc0b2785205a428040e7b894b17b9e8aaf443028bf1",
+      "bytes": 5423
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "72038be9e5c541cb0a60639b5bb516918eb20a36c9750857937b27a8b6b84e23",
+      "bytes": 47104
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "d45776517905263ec0b9f9e8861fb144c84516142e7728608c0a659c2c0c6fc8",
+      "bytes": 5379
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "b2c7adc56ac6bfee04b3f8bebb3aefcb787dec50212773d2b647759e87885a11",
+      "bytes": 47001
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "b332be88470bae087a6f9523e138ff64f007450f5ccfde191cb0a365a48770dc",
+      "bytes": 5328
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep8_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep8_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "3dd5bca28dee393e8150fe146b02efdd65d4a7e88c5f54bae16df58cdfe4bd57",
+      "bytes": 46936
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_0_tm0/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_0_tm0\\connectivity_escape.csv",
+      "sha256": "7b21776b8c2239aeadc1f7a86fb34d6546d294f8b36a087a42643705bfedb667",
+      "bytes": 5106
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_0_tm0/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_0_tm0\\transport_merged.csv",
+      "sha256": "0da78dcc7198cf2b5f70ce4491059fb908fdac158c106d4f58f645182f79dcc5",
+      "bytes": 46699
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_0_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_0_tm10\\connectivity_escape.csv",
+      "sha256": "6c377189e1c3c6acb509f6c0b4f11a543075c05cada7232b2c85f0359347d2a4",
+      "bytes": 4981
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_0_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_0_tm10\\transport_merged.csv",
+      "sha256": "115d8caaebe4af759b5bb7ad81151f505d4e0d870ad3d4373941a744d848be88",
+      "bytes": 46576
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_0_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_0_tm15\\connectivity_escape.csv",
+      "sha256": "0a08c0dee27fd4ca6193cc27847dc17af3f8aeef631e4f21fc237e17828d10eb",
+      "bytes": 5052
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_0_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_0_tm15\\transport_merged.csv",
+      "sha256": "0905adc304afd4f4471e41b31475c7e469172ecda0f5c0792487fc3057f71503",
+      "bytes": 46714
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_0_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_0_tm5\\connectivity_escape.csv",
+      "sha256": "1ae1456b8404b5be0511c8eeeb9a7e73191c3094d27dd2a508f6a4787f5cad07",
+      "bytes": 4963
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_0_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_0_tm5\\transport_merged.csv",
+      "sha256": "5143e479ed6842ed03c3c5a938d19fc0a410d34cdb501dcfc40f6f63272b6506",
+      "bytes": 46554
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_2.2_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_2.2_tm10\\connectivity_escape.csv",
+      "sha256": "ab189f003a2d49d646299db83290de9ba5467eb2997ed3169152b568e6e5dba0",
+      "bytes": 5123
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_2.2_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_2.2_tm10\\transport_merged.csv",
+      "sha256": "f3eb8ab841c57cff11cb1c0d39436b61ce4cafa14591d575383427b400df45ad",
+      "bytes": 46765
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_2.2_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_2.2_tm15\\connectivity_escape.csv",
+      "sha256": "05e889bc282651f91800d9bbfd2ca502401291d5f34d13846a051515cc8bef84",
+      "bytes": 5143
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_2.2_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_2.2_tm15\\transport_merged.csv",
+      "sha256": "24403d879922deec4ff7f53029b1feceea72c3f37b36c789ad8b2e29d2b24bfa",
+      "bytes": 46824
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_2.2_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_2.2_tm5\\connectivity_escape.csv",
+      "sha256": "16ea18d13745a4156f70d75bc182532cbee6bb2c6a504d1f38ec982af26effac",
+      "bytes": 4924
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_2.2_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_2.2_tm5\\transport_merged.csv",
+      "sha256": "ff6bd023ac9151a089e6b1ffc5237b59e910c02d0e6fee616010c9ad546f2aa0",
+      "bytes": 46744
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_4.4_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_4.4_tm10\\connectivity_escape.csv",
+      "sha256": "98b49ac4991dfbe7a670c268ec0b45b7e3e4a79c8652e783250655ffa033e3e6",
+      "bytes": 5237
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_4.4_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_4.4_tm10\\transport_merged.csv",
+      "sha256": "4319d794ce47303482736e718597fe6734ff8b427466c68940bd8ee9f9846e6d",
+      "bytes": 46835
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_4.4_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_4.4_tm15\\connectivity_escape.csv",
+      "sha256": "e4b01fb701458fc38052165e21820e072b883256d621878a29a70601cf9d9e64",
+      "bytes": 5204
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_4.4_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_4.4_tm15\\transport_merged.csv",
+      "sha256": "2550aeb2d3a616703a7172b6eda68a9ad0a35f5878c38308bff0175f77f7d87d",
+      "bytes": 46889
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_4.4_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_4.4_tm5\\connectivity_escape.csv",
+      "sha256": "369cf959a59874beb54ca6c49131263773b8805b56322a1e2be6daa2be7e3877",
+      "bytes": 5156
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_4.4_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_4.4_tm5\\transport_merged.csv",
+      "sha256": "e3f474514157756a21c345603b74afb2ba62dd132a9bdc74142dfd25c8ca296c",
+      "bytes": 46870
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_8.8_tm10/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_8.8_tm10\\connectivity_escape.csv",
+      "sha256": "36ae5331c93c0f64312bc727b7eeefb094ee1c49851c310b3004459b710d829a",
+      "bytes": 5169
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_8.8_tm10/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_8.8_tm10\\transport_merged.csv",
+      "sha256": "03c9a7fce4856f2efe790ec0672c27192c40828892b5436f9a2339ebc890b68c",
+      "bytes": 46822
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_8.8_tm15/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_8.8_tm15\\connectivity_escape.csv",
+      "sha256": "794b6bd0a90e720e3e1a338b1cc367ba7e2e2b54519eb9a4dc22dd7e9fddf0dc",
+      "bytes": 5281
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_8.8_tm15/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_8.8_tm15\\transport_merged.csv",
+      "sha256": "0f8079710410b32339ae4a3ddd1d8221acea2d22eb432ae6b9f51dabbe628800",
+      "bytes": 46985
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_8.8_tm5/connectivity_escape.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_8.8_tm5\\connectivity_escape.csv",
+      "sha256": "5329b5228ed0aa9157f3b902c53ce1d9e7cf7b3610ce5bd76aec8186f7fdd560",
+      "bytes": 5153
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/states/rep9_f0_8.8_tm5/transport_merged.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\states\\rep9_f0_8.8_tm5\\transport_merged.csv",
+      "sha256": "15626c951dafbed08ac5cb11b12c34d21458ccec6ad88c260f76648a9c6f98ec",
+      "bytes": 46900
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/survival_curves_tm10.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\survival_curves_tm10.csv",
+      "sha256": "b84c73e3fa38ba54220719b4b5530930ffdb2415a4b96b46481a467f9f6ae434",
+      "bytes": 2173852
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/survival_curves_tm15.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\survival_curves_tm15.csv",
+      "sha256": "6ba8007d727dd60eedf4b6a0db57ed0e2db71c09bc7a307d519f4db4345a4c40",
+      "bytes": 2194166
+    },
+    {
+      "file": "data/processed/homogeneous_pilot/survival_horizons.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\survival_horizons.csv",
+      "sha256": "b4961519ba03cdd9a6bd29a1630e99fef2f017b688614f32aa026471c6a4f24e",
+      "bytes": 34875
+    },
+    {
+      "file": "validation/historical_data/cell_continuous_comparisons.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\cell_continuous_comparisons.csv",
+      "sha256": "5f27b3e6c990fd1cdf21754171c4cdafc64a7891eed01aedd6b5736078152440",
+      "bytes": 4279
+    },
+    {
+      "file": "validation/historical_data/continuous_controls.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\continuous_controls.csv",
+      "sha256": "7d7fe0175d4b5fc7c939f5d395f8de2e2ae35451d9c2919ec3d1683c5c7211e8",
+      "bytes": 1434
+    },
+    {
+      "file": "validation/historical_data/continuous_dt31_comparisons.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\continuous_dt31_comparisons.csv",
+      "sha256": "bb00f8f2b1710ed7c8ed40f16ee342b44df5711730f6e405a16afede7e748cc4",
+      "bytes": 2248
+    },
+    {
+      "file": "validation/historical_data/continuous_final_comparisons.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\continuous_final_comparisons.csv",
+      "sha256": "37585a383e9fb10d4dfe69b35b245b5f55ead8d666d715c2f7cedcc138ce8bfe",
+      "bytes": 2264
+    },
+    {
+      "file": "validation/historical_data/continuous_final_summary.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\continuous_final_summary.csv",
+      "sha256": "aa782a3bc5444e24e0155f4f674e3d33738ce4443367003a9c253ef88e28a619",
+      "bytes": 1909
+    },
+    {
+      "file": "validation/historical_data/continuous_final_survival.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\continuous_final_survival.csv",
+      "sha256": "dbfca3595a41c9f708cd07d557fae9b7332b712c0cf6b61ba987f99a1be1af90",
+      "bytes": 195406
+    },
+    {
+      "file": "validation/historical_data/h70_additional_batches.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\h70_additional_batches.csv",
+      "sha256": "2074cf7d11fdb47841bd3b6438158e2dac3ef4b575257ab61356d89baa310f94",
+      "bytes": 2236
+    },
+    {
+      "file": "validation/historical_data/h70_comparison.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\h70_comparison.csv",
+      "sha256": "a8fc80b0f8efd7cc64bf6fed546264caf1f72f4a7b2e1079de9f3f22a883383d",
+      "bytes": 2238
+    },
+    {
+      "file": "validation/historical_data/h70_summary.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\h70_summary.csv",
+      "sha256": "49c5cbd2e7373a43699d31441626d5fe70a1151c7a86d28d9126c31aeec1d7af",
+      "bytes": 2305
+    },
+    {
+      "file": "validation/historical_data/obstacle_controls.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\obstacle_controls.csv",
+      "sha256": "55623d663d042769aa641bc127f2a8a250b85d76ca841da12c2eece813cc40dd",
+      "bytes": 3307
+    },
+    {
+      "file": "validation/historical_data/provenance.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\provenance.json",
+      "sha256": "bb63d0036d9938b1898c676dec965d8992213d4f24cb895ba1d4dd3164d612db",
+      "bytes": 3757
+    },
+    {
+      "file": "validation/historical_data/spatial_comparisons.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\spatial_comparisons.csv",
+      "sha256": "b4922a0b44e7dbe450195bcf5d2c7adc6962611e17e9da335f7331f7b345bb0d",
+      "bytes": 927
+    },
+    {
+      "file": "validation/historical_data/spatial_geometry.csv",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\validation\\spatial_geometry.csv",
+      "sha256": "0c873fcf31e35160264219dc302ec277dbc04e4c9050eb9847425d64da007911",
+      "bytes": 2681
+    },
+    {
+      "file": "paper/data/homogeneous_pilot/results_table.tex",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\results_table.tex",
+      "sha256": "d966ae714759e0e45a7cc2b316b460e2b6b907053e9247999f6b4c0a49631784",
+      "bytes": 2107
+    },
+    {
+      "file": "paper/data/temporal_confirmation_20261009/temporal_revised_table.tex",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\temporal_confirmation_20261009\\temporal_revised_table.tex",
+      "sha256": "2e7658fe5ec3f4b42306f95a49d796f95202a32d833c7d0cdb56ab103ab549c1",
+      "bytes": 1002
+    },
+    {
+      "file": "configs/paper/transport_protocol.json",
+      "source": "E:\\tesisprog\\fibrina\\transport\\data\\homogeneous_pilot\\protocol.json",
+      "sha256": "35db7df5702864ef660035d900396b99c552ac27226c85ec9e0f7d714ae2a073",
+      "bytes": 1145
+    },
+    {
+      "file": "validation/temporal_20261009/results.json",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\results.json",
+      "sha256": "6fe0fe2fb008145f26c99717e486c7137cf7c142a24615fe7663ca85e1c1557d",
+      "bytes": 7082
+    },
+    {
+      "file": "validation/temporal_20261009/protocol.json",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\protocol.json",
+      "sha256": "e76440901e51974aab04edfbeb203a0e545ecb12dfe1c1a6cb9dc9892ffcaab3",
+      "bytes": 1093474
+    },
+    {
+      "file": "validation/temporal_20261009/execution_summary.json",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\execution_summary.json",
+      "sha256": "176ef3fc692fab7591f859823c028cafd4e1f1df8b193a44788a5d647b1110bd",
+      "bytes": 1221010
+    },
+    {
+      "file": "validation/temporal_20261009/controls.json",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\controls.json",
+      "sha256": "a06c74ab8b9299aeb5302f58722d0f88d74402876a5b6440562d4bbae531ae0f",
+      "bytes": 791
+    },
+    {
+      "file": "validation/temporal_20261009/protocolo.md",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\protocolo.md",
+      "sha256": "69aa1f7beffc2f110cd55e903a50539e01c8ae7897eda1b912e6e62fd1a2a66f",
+      "bytes": 4219
+    },
+    {
+      "file": "validation/temporal_20261009/informe.md",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\informe.md",
+      "sha256": "065e4c7b6be40ea57e234b55e45c8bb7f34098d865a13daa1b2f583a261f90d9",
+      "bytes": 3589
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep1_f0_0_tm0_dt15.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep1_f0_0_tm0_dt15.csv",
+      "sha256": "03a633fc094a1d1716e5504dc32136231ad41893d5f7fd5b27a248370b1e082f",
+      "bytes": 1508417
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep1_f0_0_tm0_dt31.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep1_f0_0_tm0_dt31.csv",
+      "sha256": "95f1d4e380852c34fd6d47d1d88ca10965bc2f0a332b68ff8c3da036c4af5b05",
+      "bytes": 1502219
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep1_f0_0_tm0_dt7.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep1_f0_0_tm0_dt7.csv",
+      "sha256": "f12b563d33e00a43b453cf10b8996ab195c614213aa3b6815683734e62202d92",
+      "bytes": 1516820
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep1_f0_2.2_tm10_dt15.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep1_f0_2.2_tm10_dt15.csv",
+      "sha256": "5d307308a82f8e4f16ab031e4cf0d45a369423c09b1da77aaae4a2b65906ac98",
+      "bytes": 1515528
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep1_f0_2.2_tm10_dt31.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep1_f0_2.2_tm10_dt31.csv",
+      "sha256": "64538f6fc6ada7ea60c2c0cb49ca01364197167b74ea78a5d22538b7aacc201b",
+      "bytes": 1510656
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep1_f0_2.2_tm10_dt7.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep1_f0_2.2_tm10_dt7.csv",
+      "sha256": "450933812a08c2b19a2761fbfe8c58168adb53517af7e8c6f4ea1303d4ed3682",
+      "bytes": 1523926
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep9_f0_8.8_tm15_dt15.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep9_f0_8.8_tm15_dt15.csv",
+      "sha256": "4de97472cff92cc9af4f9d7e3f4ef1ef3566fdc79967d4a2afc9a551ce579b1d",
+      "bytes": 1518396
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep9_f0_8.8_tm15_dt31.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep9_f0_8.8_tm15_dt31.csv",
+      "sha256": "d969d962d90a95384eba5163456c7934e4c4d3dc598513e924bea90e0394ca22",
+      "bytes": 1513534
+    },
+    {
+      "file": "validation/temporal_20261009/events/rep9_f0_8.8_tm15_dt7.csv",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\rep9_f0_8.8_tm15_dt7.csv",
+      "sha256": "3c90273b6b8b8b9005bd181df9c121c0a4b9f71e2d03260514c8896df7089c54",
+      "bytes": 1525832
+    },
+    {
+      "file": "validation/temporal_20261012_revision/results_revised_margin.json",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_margin_revision_20261012\\results_revised_margin.json",
+      "sha256": "8c01ef0a5b2401f245f3354a04a2657c3a413ef0aa480a529ec603fd6ec23d27",
+      "bytes": 9144
+    },
+    {
+      "file": "validation/temporal_20261012_revision/informe_revisado.md",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_margin_revision_20261012\\informe_revisado.md",
+      "sha256": "94c23fef63307550aa808184c24e2c916a2a85bc7def3bb70a69de4535b58087",
+      "bytes": 4099
+    },
+    {
+      "file": "validation/temporal_20261012_revision/guion_5_minutos.md",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_margin_revision_20261012\\guion_5_minutos.md",
+      "sha256": "e2b5f6feafe0a6994d4a28bbd5bb4e59b50ed770cbf10dda6d1ad64dee8804a3",
+      "bytes": 8421
+    },
+    {
+      "file": "validation/temporal_20261012_revision/01_supervivencia.png",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_margin_revision_20261012\\01_supervivencia.png",
+      "sha256": "ac0a5e390bf218dd904c348e0c528c2ffd9f59a928510022f7b1128361cb89c4",
+      "bytes": 125458
+    },
+    {
+      "file": "validation/temporal_20261012_revision/02_equivalencia.png",
+      "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_margin_revision_20261012\\02_equivalencia.png",
+      "sha256": "e2f22b1ee4b9e2a777c169a89ac279cb8df03ef4919d69ec844bd1426a364e05",
+      "bytes": 90255
+    }
+  ]
+}

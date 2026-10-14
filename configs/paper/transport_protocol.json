@@ -1,0 +1,42 @@
+{
+  "status": "completed; reuse of prior six-replica data plus completed new batch",
+  "cohorts": [
+    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\six_replica_manuscript_20260924",
+    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001"
+  ],
+  "mechanical_replicas": 9,
+  "mechanical_times_s": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "N_per_unique_geometry": 256,
+  "nominal_states": 144,
+  "unique_geometries": 117,
+  "unique_histories": 29952,
+  "radius_um": 0.25,
+  "D_um2_s": 0.4,
+  "dt_s": 1.5625e-05,
+  "horizon_s": 100.0,
+  "H_um": 0.1,
+  "Lz_um": 5.0,
+  "all_replicas_prespecified_before_first_pilot": false,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260919,
+  "bootstrap_replica_draw_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "cohort_extension_sequential": true,
+  "simulations_executed_by_this_script": false,
+  "original_t0_contraction_reference_preserved": true,
+  "uncertainty": "Marginal paired-index intervals conditional on each network; network ranges are not CIs."
+}

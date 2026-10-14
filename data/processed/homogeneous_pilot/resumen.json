@@ -1,0 +1,160 @@
+{
+  "mechanical_replicas": 9,
+  "nominal_states": 144,
+  "unique_geometries": 117,
+  "histories": 29952,
+  "new_unique_geometries": 63,
+  "new_chunks": 252,
+  "added_unique_histories": 16128,
+  "force_control_contrasts": 81,
+  "connected": 20052,
+  "disconnected": 6,
+  "unresolved": 9894,
+  "censored": 6100,
+  "censored_from_connected": 3380,
+  "censored_from_disconnected": 6,
+  "censored_from_unresolved": 2714,
+  "lateral_contact_particles": 2,
+  "total_force_control_contrasts": 81,
+  "positive_geometry_contrasts": 81,
+  "min_accessible_volume_change_pct": 9.29153157092053,
+  "max_accessible_volume_change_pct": 27.580500284600042,
+  "maximum_same_index_initial_count": 68.0,
+  "minimum_shared_initial_count": 26,
+  "maximum_shared_initial_count": 225.0,
+  "total_lateral_events": 1054,
+  "certified_disconnected": [
+    {
+      "state_id": "rep4_f0_2.2_tm15",
+      "particle_zero_based": 48,
+      "xyz_um": [
+        1.1470080773420828,
+        0.20121526819824914,
+        2.518549951661432
+      ],
+      "outcome": 0,
+      "time_s": 100.0
+    },
+    {
+      "state_id": "rep4_f0_4.4_tm10",
+      "particle_zero_based": 43,
+      "xyz_um": [
+        1.1470080773420828,
+        0.20121526819824914,
+        2.518549951661432
+      ],
+      "outcome": 0,
+      "time_s": 100.0
+    },
+    {
+      "state_id": "rep4_f0_4.4_tm15",
+      "particle_zero_based": 38,
+      "xyz_um": [
+        1.1470080773420828,
+        0.20121526819824914,
+        2.518549951661432
+      ],
+      "outcome": 0,
+      "time_s": 100.0
+    },
+    {
+      "state_id": "rep4_f0_4.4_tm15",
+      "particle_zero_based": 229,
+      "xyz_um": [
+        1.1494944786702683,
+        0.14698805775568177,
+        2.5237111332220734
+      ],
+      "outcome": 0,
+      "time_s": 100.0
+    },
+    {
+      "state_id": "rep4_f0_8.8_tm10",
+      "particle_zero_based": 31,
+      "xyz_um": [
+        1.1470080773420828,
+        0.20121526819824914,
+        2.518549951661432
+      ],
+      "outcome": 0,
+      "time_s": 100.0
+    },
+    {
+      "state_id": "rep4_f0_8.8_tm10",
+      "particle_zero_based": 183,
+      "xyz_um": [
+        1.1494944786702683,
+        0.14698805775568177,
+        2.5237111332220734
+      ],
+      "outcome": 0,
+      "time_s": 100.0
+    }
+  ],
+  "by_mechanical_time": {
+    "0": {
+      "unique_geometries": 9,
+      "histories": 2304,
+      "connected": 1015,
+      "disconnected": 0,
+      "unresolved": 1289,
+      "censored": 558,
+      "censored_from_connected": 189,
+      "censored_from_disconnected": 0,
+      "censored_from_unresolved": 369,
+      "lateral_contact_particles": 0,
+      "active_control_contrasts": 0,
+      "negative_RMST_point_contrasts": 0,
+      "RMST_conditional_intervals_below_zero": 0,
+      "positive_contraction_and_accessibility": 0
+    },
+    "5": {
+      "unique_geometries": 36,
+      "histories": 9216,
+      "connected": 6186,
+      "disconnected": 0,
+      "unresolved": 3030,
+      "censored": 1898,
+      "censored_from_connected": 1128,
+      "censored_from_disconnected": 0,
+      "censored_from_unresolved": 770,
+      "lateral_contact_particles": 0,
+      "active_control_contrasts": 27,
+      "negative_RMST_point_contrasts": 25,
+      "RMST_conditional_intervals_below_zero": 12,
+      "positive_contraction_and_accessibility": 27
+    },
+    "10": {
+      "unique_geometries": 36,
+      "histories": 9216,
+      "connected": 6224,
+      "disconnected": 3,
+      "unresolved": 2989,
+      "censored": 1866,
+      "censored_from_connected": 1036,
+      "censored_from_disconnected": 3,
+      "censored_from_unresolved": 827,
+      "lateral_contact_particles": 1,
+      "active_control_contrasts": 27,
+      "negative_RMST_point_contrasts": 24,
+      "RMST_conditional_intervals_below_zero": 18,
+      "positive_contraction_and_accessibility": 27
+    },
+    "15": {
+      "unique_geometries": 36,
+      "histories": 9216,
+      "connected": 6627,
+      "disconnected": 3,
+      "unresolved": 2586,
+      "censored": 1778,
+      "censored_from_connected": 1027,
+      "censored_from_disconnected": 3,
+      "censored_from_unresolved": 748,
+      "lateral_contact_particles": 1,
+      "active_control_contrasts": 27,
+      "negative_RMST_point_contrasts": 25,
+      "RMST_conditional_intervals_below_zero": 21,
+      "positive_contraction_and_accessibility": 27
+    }
+  }
+}

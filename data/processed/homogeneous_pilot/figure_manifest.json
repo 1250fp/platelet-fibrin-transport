@@ -1,0 +1,8 @@
+{
+  "legacy_filenames_mechanical_time_s": 10,
+  "new_explicit_endpoint_s": 15,
+  "homogeneous_geometry": "Replica curves; symbols identify nine independent seed groups.",
+  "homogeneous_transport": "Mean S(t) with min--max range; paired per-replica RMST intervals are conditional 95% bootstrap intervals.",
+  "homogeneous_time_evolution": "Frozen-state means and min--max ranges; not moving-boundary transport.",
+  "visual_QA_required": true
+}

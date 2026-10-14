@@ -1,0 +1,32 @@
+# Generated environments, executables, and experiment output
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+results/
+outputs/
+*.exe
+*.dll
+*.so
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+# TeX temporary products (final PDFs are intentionally tracked)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+paper/build/
+# Large raw data belong in a separately archived data deposit
+data/raw/
+*.zip
+.DS_Store
+Thumbs.db

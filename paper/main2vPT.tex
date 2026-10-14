@@ -1,0 +1,341 @@
+\documentclass[twocolumn, 10pt]{article}
+%\usepackage[english]{babel}
+%\usepackage{amsmath, amssymb, amsfonts, bm}
+%\usepackage{graphicx}
+%\usepackage{geometry}
+%\usepackage{cite}
+%\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}
+%\usepackage{booktabs}
+%\usepackage{titlesec}
+
+% REVTeX is not available in the current LaTeX installation; use the
+% standard article class instead.
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb, graphicx, booktabs, xcolor, lipsum}
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\topfraction}{0.90}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\renewcommand{\dbltopfraction}{0.90}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@dblfptop}{0pt}
+\makeatother
+
+\begin{document}
+
+%\geometry{margin=1.7cm, top=2cm, bottom=2cm}
+%\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+
+\title{\textbf{Mechanical Reorganization and Tracer Retention in Layered Platelet--Fibrin Networks}}
+
+\author{Juan P. Staforelli-Vivanco$^1$, Paolo Teppa Gutierrez$^{1,*}$ \\
+\small $^1$ Departamento de Física, Facultad de Ciencias Físicas y Matemáticas, \\
+\small Universidad de Concepción, Concepción, Chile \\
+\small $^*$ pteppa2018@udec.cl}
+
+\date{\today}
+
+\twocolumn[
+\begin{@twocolumnfalse}
+\maketitle
+\vspace{-1.5em}
+\begin{center}
+\begin{minipage}{0.88\textwidth}
+\small
+\noindent
+How does mechanical reorganization of a platelet--fibrin network affect finite-time particle retention? We study nine paired mechanical seed groups at four filopodial baselines, using independently generated planes assembled into 50-layer domains of fixed thickness $5~\mu\mathrm m$. Frozen states at 0, 5, 10, and 15 s are probed with 256 centrally released, noninteracting tracers per unique geometry (diameter $0.50~\mu\mathrm m$), reflecting at continuous solids and escaping through either axial face. The 29952 unique histories are observed for up to 100 s. Relative to the same-time zero-baseline control, all 81 active-baseline contrasts show greater common-domain contraction and accessible-center fraction; absolute accessible volume increases by 9.29--27.58\%. Nevertheless, restricted mean exit-time changes differ between mechanical realizations. At the 15 s mechanical state, mean survival decreases from 27.34\% to 14.32\% between the lowest and highest baselines, but this aggregate ordering does not establish a general dose response. Independent connectivity checks distinguish censored tracers with certified exit routes from six certified disconnected state-specific starts, while leaving 9894 starts unresolved. Temporal refinement in three states supports the selected step under a revised, post-analysis survival tolerance of $\pm2.5$ percentage points and a $\pm3\%$ RMST tolerance; the original $\pm2$-point criterion remains inconclusive in one state. The study provides a reproducible exploratory comparison of contraction, accessibility, and retention without interpreting finite-time survival as irreversible capture.
+\end{minipage}
+\end{center}
+\vspace{1em}
+\end{@twocolumnfalse}
+]
+
+\section{Introduction}
+Platelet traction reorganizes fibrin networks, changing their projected extent and local architecture \cite{Michael2023,Prakhya2022}. Area contraction alone, however, does not determine whether a finite-size particle can move through the remaining void or reach an external boundary. Local clearance, connectivity, and the time required to traverse a connected route describe different aspects of confinement. First-passage theory provides the relevant transport observables: survival before a specified exit and the distribution of exit times \cite{Redner2001}.
+
+The scientific question is therefore: \emph{how does mechanical reorganization change central-release retention, and are those changes associated with accessible volume, connectivity to an exit, or slower motion within connected space?} We use independently generated two-dimensional platelet--fibrin layers as an approximate three-dimensional transport domain. Tracers start internally and escape through either external $z$ face; boundary injection and binding are not included.
+
+The comparison links projected area contraction, particle-center accessibility, the connectivity of actual starting centers, survival $S(t)$, and restricted mean first-passage time (RMST) on matched frozen snapshots. We distinguish reproducible implementation checks from unresolved discretization uncertainty and from external structural or mechanical validation. The available nine-replica force sweep is treated as a descriptive pilot, not as evidence for a universal biological force--escape relationship.
+
+\section{Numerical Methodology}
+
+\subsection{Overdamped Network and Platelet Dynamics}
+Both fibrin nodes and platelet centers are advanced with an overdamped Langevin update. For an object $i$ with position $\mathbf q_i$, drag coefficient $\zeta_i$, total force $\mathbf F_i$, and diffusion coefficient $D_i=k_BT/\zeta_i$,
+\begin{equation}
+\mathbf q_i(t+\delta t)=\mathbf q_i(t)
++\frac{\delta t}{\zeta_i}\mathbf F_i(t)
++\sqrt{2D_i\delta t}\,\boldsymbol\xi_i,
+\label{eq:overdamped}
+\end{equation}
+where $\boldsymbol\xi_i\sim\mathcal N(\mathbf 0,\mathbf I_2)$ is independently sampled for every object and coordinate. Mechanical quantities are expressed consistently in $\mu\mathrm{m}$, nN, and s. The effective drag coefficients used in the simulations are
+\begin{equation}
+\zeta_n=3.77\;\mathrm{nN\,s\,\mu m^{-1}},
+\qquad
+\zeta_p=85.2\;\mathrm{nN\,s\,\mu m^{-1}},
+\end{equation}
+for fibrin nodes and platelets, respectively, with $D_n=k_BT/\zeta_n$ and $D_p=k_BT/\zeta_p$. These are effective model drags: the numerical coefficients are retained from the source implementation \cite{MichaelCodeOcean2023}, but are interpreted in $\mathrm{nN\,s/\mu m}$. They are approximately $10^6$ times the Stokes estimates obtained from the viscosity and radii reported by Michael et al.~\cite{Michael2023} after conversion to these units. Their effective interpretation has not been calibrated to contraction kinetics in the present planar model; mechanical time is therefore a model time, not a validated mapping to biological contraction time.
+
+The nodal force contains backbone and cohesive WLC forces, rest-angle bending, platelet--fibrin contact, and filopodial traction. The platelet force contains platelet--platelet interaction and the equal-and-opposite reactions to platelet--fibrin contact and filopodial traction. After each stochastic update, the common translational displacement of all free objects is removed to suppress whole-clot Brownian drift.
+
+Forces are recomputed during adaptive internal substeps. If $v_{\max}=\max_i\|\mathbf F_i\|/\zeta_i$, the deterministic displacement criterion gives
+\begin{equation}
+\delta t=\min\!\left(\Delta t_{\mathrm{rem}},
+\frac{\delta x_{\mathrm{target}}}{v_{\max}}\right),
+\qquad
+\delta x_{\mathrm{target}}=0.01\;\mu\mathrm{m}.
+\label{eq:adaptive-time}
+\end{equation}
+Here, $\Delta t_{\mathrm{rem}}$ is the portion of the prescribed outer time step that remains to be integrated after the preceding internal substeps.
+An internal step is accepted in full when its displacement remains within the numerical safety bound; a proposed displacement greater than $1\;\mu\mathrm{m}$ terminates the simulation with a diagnostic error.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{figures/figura1.png}
+    \caption{Mechanical evolution of layer 1 from replica 1 of the analyzed cohort (seed 4000, $f_0=2.2\,\mathrm{nN}$) at (a) 0, (b) 2, (c) 5, and (d) 10 s. Disks denote platelets; lines denote fibrin backbone and cohesive connections. All panels use identical spatial limits and scale.}
+    \label{fig1}
+\end{figure}
+%\subsection{DRAFT}
+%Adaptive Fibrin Discretization ---  add hand-over - bending eqs. dig for $k$ used in bending (supplementary notes: energy to force $F^{bend}$)\par
+%Interactions ---  add schematic or refine description of zones
+
+%-------------------------------------------------------------------------------------------------------------%
+
+\subsection{Initial Length-Controlled Fibrin Discretization}
+
+Each fibrin edge is subdivided once, during construction of the initial mechanical network. For an initial edge of length $L$, the number of sub-segments $S_{\mathrm{sub}}$ is determined by the target segment length $l_{\mathrm{seg}}=0.30\;\mu\mathrm{m}$:
+\begin{equation}
+S_{\mathrm{sub}}=\max\!\left(2,
+\left\lceil\frac{L}{l_{\mathrm{seg}}}\right\rceil\right).
+\label{eq:initial-discretization}
+\end{equation}
+Each resulting sub-segment $e$ stores its initial length as the reference length $L_{0,e}$. Its mechanical state is described by the engineering strain
+\begin{equation}
+\begin{aligned}
+    \gamma_e &= \frac{L_e-L_{0,e}}{L_{0,e}},
+    &\widehat{\gamma}_e &= \min(\gamma_e,\gamma_{\max}),\\
+    u_e &= \frac{\widehat{\gamma}_e}{C}.
+\end{aligned}
+    \label{eq:wlcstrain}
+\end{equation}
+where $C$ is a dimensionless WLC extension parameter and $0<\gamma_{\max}<C$. The WLC singularity occurs at $\gamma=C$, equivalently at $L=(1+C)L_0$. The cap $\widehat\gamma$ is used only in the constitutive evaluation, while the node coordinates evolve according to Eq.~\eqref{eq:overdamped}.
+
+Internal stretching is governed by the Marko--Siggia WLC interpolation \cite{MarkoSiggia1995,Michael2023}. For a sub-segment representing $N$ load-bearing chains in parallel, the signed axial force is
+\begin{equation}
+    F_{\mathrm{WLC},e}
+    = \frac{N k_B T}{P}
+    \left[
+        \frac{1}{4\bigl(1-u_e\bigr)^2}-\frac{1}{4}+u_e
+    \right],
+    \label{eq:wlcforce}
+\end{equation}
+where $P$ is the persistence length. Equation~\eqref{eq:wlcforce} gives $F_{\mathrm{WLC}}=0$ at the reference configuration ($\gamma=0$), positive tension under extension, and a signed compressive response for $\gamma<0$. The analytical tangent of the uncapped law, evaluated at $\widehat{\gamma}_e$, is
+\begin{equation}
+    k_{\gamma,e}
+    = \left.\frac{\partial F_{\mathrm{WLC}}}{\partial\gamma}\right|_{\widehat{\gamma}_e}
+    = \frac{N k_B T}{P}
+    \left[
+        \frac{C^2}{2\bigl(C-\widehat{\gamma}_e\bigr)^3}+\frac{1}{C}
+    \right].
+    \label{eq:wlctangent}
+\end{equation}
+Because $\gamma$ is dimensionless, $k_{\gamma,e}$ has units of force. A spatial spring stiffness is $k_{L,e}=k_{\gamma,e}/L_{0,e}$, with units of force per length. The stiffness signal used by a platelet attached to node $j$ is evaluated at the mean signed strain of the $n_j$ incident backbone segments,
+\begin{equation}
+    \overline{\gamma}_j
+    = \frac{1}{n_j}\sum_{e\in S(j)}\gamma_e,
+    \qquad
+    k_j = k_\gamma\!\left(\min(\overline{\gamma}_j,\gamma_{\max})\right).
+    \label{eq:wlcstiffness}
+\end{equation}
+This tangent provides the local mechanical signal entering the filopodial traction law.
+\subsection{Rest-Angle Bending}
+Contour preservation is represented by an angular bending energy. For a node triplet $(i,j,k)$, define the adjacent vectors and current signed turning angle as
+\begin{equation}
+\mathbf u=\mathbf x_j-\mathbf x_i,\qquad
+\mathbf v=\mathbf x_k-\mathbf x_j,
+\end{equation}
+\begin{equation}
+\phi=\operatorname{atan2}\!\left(
+(\mathbf u\times\mathbf v)_z,\mathbf u\cdot\mathbf v\right).
+\end{equation}
+The angular deviation from the stored initial angle $\phi_0$ is wrapped to $(-\pi,\pi]$,
+\begin{equation}
+\Delta\phi=\operatorname{atan2}\!\left[
+\sin(\phi-\phi_0),\cos(\phi-\phi_0)\right].
+\end{equation}
+With the reference dual length
+\begin{equation}
+\overline L_{0,ijk}=\frac{L_{0,ij}+L_{0,jk}}{2},
+\end{equation}
+the bending energy and forces are
+\begin{equation}
+E_{ijk}^{\mathrm{bend}}=
+\frac{1}{2}\frac{EI}{\overline L_{0,ijk}}(\Delta\phi)^2,
+\qquad
+\mathbf F_{\ell}^{\mathrm{bend}}
+=-\frac{\partial E_{ijk}^{\mathrm{bend}}}{\partial\mathbf x_\ell},
+\label{eq:bending-energy}
+\end{equation}
+where $\ell\in\{i,j,k\}$ and $EI=2.26\times10^{-3}\;\mathrm{nN\,\mu m^2}$. Consequently, the three forces sum to zero. Bending triplets are assigned both along subdivided fiber interiors and between angularly adjacent segments at network junctions.
+%------------------------------------------------------------------------------------------------------------%
+\subsection{Platelet-Fiber Interaction}
+
+The platelet body is represented by a circle of radius $r_p=1.13\;\mu\mathrm{m}$. Platelet--fibrin body contact acts between a platelet center $\mathbf p_m$ and fibrin node $\mathbf x_j$. Let
+\begin{equation}
+\mathbf r_{mj}=\mathbf x_j-\mathbf p_m,
+\qquad d_{mj}=\|\mathbf r_{mj}\|,
+\qquad \widehat{\mathbf r}_{mj}=\frac{\mathbf r_{mj}}{d_{mj}},
+\end{equation}
+and define
+\begin{equation}
+r_{\mathrm{in}}=f_r r_p+r_f,
+\qquad r_{\mathrm{out}}=r_p+r_f,
+\end{equation}
+where $f_r=0.9$ and the fiber radius is $r_f=0.05\;\mu\mathrm{m}$. The force exerted by platelet $m$ on node $j$ is the constant-magnitude radial law
+\begin{equation}
+\mathbf F_{j\leftarrow m}^{PF}=
+\begin{cases}
++F_{PF}\widehat{\mathbf r}_{mj},
+&0<d_{mj}<r_{\mathrm{in}},\\
+-F_{PF}\widehat{\mathbf r}_{mj},
+&r_{\mathrm{in}}\le d_{mj}\le r_{\mathrm{out}},\\
+\mathbf 0,&d_{mj}>r_{\mathrm{out}},
+\end{cases}
+\label{eq:platelet-fibrin}
+\end{equation}
+with $F_{PF}=4\;\mathrm{nN}$. Thus, the inner region is repulsive and the outer contact shell is adhesive. The platelet receives the reciprocal force $-\mathbf F_{j\leftarrow m}^{PF}$.
+
+Filopodia operate in the separate annulus $r_{\mathrm{out}}\le d_{mj}\le r_{\max}$, with $r_{\max}=2.18\;\mu\mathrm{m}$. A free arm attaches to the nearest unoccupied fibrin node in this annulus. If its node leaves the annulus, the arm is released and globally reacquires the nearest available node. Global node exclusivity prevents two filopodia from claiming the same node. Each attached arm applies its full traction magnitude and an equal-and-opposite reaction to the platelet.
+
+The filopodial traction depends on the local WLC tangent signal in Eq.~\eqref{eq:wlcstiffness}. Its stiffness-dependent contribution approaches the finite asymptote $a/b$ as $k_j$ increases, and negative total values are excluded:
+\begin{equation}
+F_{\mathrm{fil}}(k_j)
+= \max\!\left\{0,\frac{1}{2}\left[f_0 + \frac{a k_j}{b k_j + c}\right]\right\}.
+\label{eq:wlctraction}
+\end{equation}
+The numerical coefficient convention for $k_j$ in nN is $a=61$ nN, $b=3.58$, and $c=132$ nN. In particular, $f_0=0$ removes only the baseline term: the stiffness-dependent traction remains. It is not an inactive-platelet or noncontractile control.
+
+\subsection{Platelet--Platelet Interaction}
+Platelet pairs interact through the derivative of a truncated 12--6 Lennard--Jones potential. The core diameter, length scale, and cutoff are
+\begin{equation}
+d_c=2f_r r_p,\qquad
+\sigma=\frac{d_c}{2^{1/6}},\qquad
+r_c=2r_p.
+\end{equation}
+For the separation vector $\mathbf r_{ab}=\mathbf p_b-\mathbf p_a$, $r=\|\mathbf r_{ab}\|$, and $\widehat{\mathbf r}_{ab}=\mathbf r_{ab}/r$, define
+\begin{equation}
+f_{PP}(r)=
+\begin{cases}
+\displaystyle\frac{24\epsilon}{r}
+\left[2\left(\frac{\sigma}{r}\right)^{12}
+-\left(\frac{\sigma}{r}\right)^6\right],&r\le r_c,\\[3mm]
+0,&r>r_c.
+\end{cases}
+\label{eq:platelet-platelet-scalar}
+\end{equation}
+The reciprocal pair forces are
+\begin{equation}
+\mathbf F_a^{PP}=-f_{PP}(r)\widehat{\mathbf r}_{ab},
+\qquad
+\mathbf F_b^{PP}=-\mathbf F_a^{PP},
+\label{eq:platelet-platelet}
+\end{equation}
+with $\epsilon=4\;\mathrm{nN\,\mu m}$. The force is repulsive for $r<d_c$, zero at $r=d_c$, and attractive for $d_c<r<r_c$. The interaction is set to zero beyond $r_c$ and retains its unshifted value immediately inside the cutoff.
+
+\subsection{Permanent Fiber--Fiber Cohesion}
+New cohesive links are searched every ten outer mechanical intervals between distinct-fiber nodes separated by no more than $r_{\mathrm{coh}}=0.10\;\mu\mathrm{m}$. Existing backbone pairs, duplicate pairs, and node pairs sharing a fiber identity are excluded. At most four new cohesive links may be assigned to a node in one search and at most four cohesive neighbors are permitted per node; backbone neighbors are not counted toward this cohesive valence.
+
+When a link $(a,b)$ is created at time $t_b$, its reference length is
+\begin{equation}
+L_{0,ab}^{\mathrm{coh}}
+=\|\mathbf x_b(t_b)-\mathbf x_a(t_b)\|,
+\qquad
+F_{\mathrm{WLC}}(t_b)=0.
+\label{eq:cohesion-birth}
+\end{equation}
+The link is permanent and subsequently carries the same signed WLC law as a backbone segment. Only one cohesive link is allowed for each unordered node pair.
+
+\subsection{Mechanical Parameterization and Internal Balance}
+Stretching follows Eqs.~\eqref{eq:wlcstrain}--\eqref{eq:wlcforce}. For every backbone or cohesive pair, the scalar WLC force is applied along the current pair direction with equal-and-opposite nodal contributions. The parameter values are $T=300$ K, $N=50$, $P=1.07\times10^{-3}\,\mu\mathrm{m}$, $C=2.35$, and $\gamma_{\max}=2.0$. The bundle multiplier $N=50$ is a choice of the planar adaptation, not the $N=1100$ assigned to a 100 nm fiber by the source implementation \cite{MichaelCodeOcean2023}. It has not been recalibrated here. Likewise, the platelet pair energy $\epsilon=4~\mathrm{nN\,\mu m}$ is an input of the adapted contact law, rather than the $16~\mathrm{nN\,\mu m}$ coefficient in the original formulation \cite{Michael2023}.
+
+Table~\ref{tab:parameters} collects the saved mechanical settings and the homogeneous transport protocol. These are model inputs, not values fitted to the escape measurements. Mechanical settings were checked against the saved configurations: two seed blocks assembled from 20-layer stacks and 30-layer extensions, and seven generated directly with 50 layers under the same protocol. All evolutions continue to 15 s from their saved 10 s mechanical states, retaining cohesive links, their reference lengths, and stochastic continuation state. Contraction is always referenced to the original 0 s configuration. The effective $1~\mu$m thickness used to convert junction densities into planar node counts is an initialization parameter, distinct from the transport layer thickness $H$.
+
+\begin{table*}[tp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.03}
+\caption{Model parameters and frozen-state transport protocol. Values are rounded for presentation; configuration files retain the values used in computation. Counts and time steps are exact. \textit{Adapted} identifies a change of interpretation, geometry, or implementation, not a new experimental calibration.}
+\label{tab:parameters}
+\begin{tabular}{@{}p{0.30\textwidth}p{0.43\textwidth}p{0.22\textwidth}@{}}
+\toprule
+Parameter or setting & Value or rule & Source \\\midrule
+\multicolumn{3}{@{}l}{\textit{Mechanical network}}\\
+Domain; platelets per layer & $47.6\times47.6~\mu\mathrm m$; 45 & Adapted from \cite{Michael2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Platelet and fiber radii & $r_p=1.13~\mu\mathrm m$; $r_f=0.05~\mu\mathrm m$ & \cite{Michael2023,MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Junction densities (degree 3, 4) & $0.020$, $0.00379~\mu\mathrm m^{-3}$; initialization thickness $1~\mu\mathrm m$ & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Segment length; temperature & $l_{\mathrm{seg}}=0.30~\mu\mathrm m$; $T=300$ K & \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Parallel WLC chains; strain cap & $N=50$; $\gamma_{\max}=2$ & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+WLC persistence and extension & $P=1.07$ nm; $C=2.35$ & \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Bending rigidity & $EI=2.26\times10^{-3}~\mathrm{nN\,\mu m^2}$ & Adapted from \cite{Michael2023,MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Effective node and platelet drag & $\zeta_n=3.77$, $\zeta_p=85.2~\mathrm{nN\,s/\mu m}$ & Adapted from \cite{MichaelCodeOcean2023}; see text\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Cohesive distance & $r_{\mathrm{coh}}=0.10~\mu\mathrm m$ & \cite{Michael2023,MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Cohesive search and valence & Every 10 outer steps; at most 4 new links and 4 cohesive neighbors per node & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Platelet--fibrin force & $F_{PF}=4$ nN & Magnitude: \cite{Michael2023}; law adapted\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Platelet pair energy & $\epsilon=4~\mathrm{nN\,\mu m}$ & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Core fraction; filopodial reach & $f_r=0.9$; $r_{\max}=2.18~\mu\mathrm m$ & \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Filopodial baseline sweep & $f_0\in\{0,2.2,4.4,8.8\}$ nN & This study; baseline scale \cite{Michael2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Stiffness-response coefficients & $a=61$ nN, $b=3.58$, $c=132$ nN & Adapted from \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Filopodia per platelet & Log-space $\mu=1.85$, $\sigma=0.27$; rounded and clipped to 2--13 & Distribution: \cite{Michael2023}; sampling adapted\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Mechanical integration; output & Outer step 1 ms; target displacement $0.01~\mu\mathrm m$; output every 0.1 s, up to 15 s & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Lateral support & Convex support, padding $0.50~\mu\mathrm m$; $256\times256$ raster & This study\\
+\midrule
+\multicolumn{3}{@{}l}{\textit{Frozen-state transport and sampling}}\\
+Layers and thickness & $N_z=50$; $H=100$ nm; $L_z=5~\mu\mathrm m$ & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Mechanical replicas and states & 9 paired seed groups; $t_m=0$, 5, 10, 15 s & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Tracer radius & $a_{\rm tr}=0.25~\mu\mathrm m$ & Chosen; size scale \cite{Zubairova2015}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Tracer diffusion & $D=0.40~\mu\mathrm m^2/\mathrm s$ & Assumed effective value\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Central release & Cylinder radius $1.19~\mu\mathrm m$; $z\in[2,3]~\mu\mathrm m$; valid-center conditioning & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Histories & 256 per unique geometry; 117 geometries, 29952 histories & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Time step; observation horizon & $\Delta t=0.015625$ ms; $T_c=100$ s & This study; Supplement S8\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Solids and boundaries & Continuous extruded solids; solid/lateral reflection; both $z$ faces absorbing & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Geometry proposals & 131072 shared uniform-box proposals per replica & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Connectivity auxiliary grid & $512\times512\times100$; $h_{xy}\approx93.0$ nm; $h_z=50$ nm & This study; Supplement S8\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\input{homogeneous_pilot_sections}
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+\end{document}

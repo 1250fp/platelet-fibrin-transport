@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Research snapshot accompanying the minipaper; publication metadata and licensing remain under author review."
+title: "Mechanical Reorganization and Tracer Retention in Layered Platelet-Fibrin Networks"
+type: software
+version: 0.1.0
+date-released: 2026-10-14
+authors:
+  - family-names: Staforelli-Vivanco
+    given-names: Juan P.
+  - family-names: Teppa Gutierrez
+    given-names: Paolo

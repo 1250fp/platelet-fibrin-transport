@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "engine_change": "finest Gaussian interval only",
+  "legacy_replays": [
+    {
+      "method": "reflect_dt15",
+      "offset": 0,
+      "count": 2,
+      "all_fields_bit_identical": true
+    },
+    {
+      "method": "reflect_dt15",
+      "offset": 128,
+      "count": 2,
+      "all_fields_bit_identical": true
+    },
+    {
+      "method": "reflect_dt31",
+      "offset": 0,
+      "count": 2,
+      "all_fields_bit_identical": true
+    },
+    {
+      "method": "reflect_dt31",
+      "offset": 128,
+      "count": 2,
+      "all_fields_bit_identical": true
+    }
+  ],
+  "free_paths_per_level": 4096,
+  "free_nested_endpoint_max_error_um": 2.7284841053187847e-11,
+  "offset_replay_bit_identical": true,
+  "inherited_geometric_cases": 26510
+}

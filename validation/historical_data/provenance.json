@@ -1,0 +1,74 @@
+[
+  {
+    "name": "h70_comparison",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_temporal_H70_final_20260909\\comparison.csv",
+    "file": "h70_comparison.csv",
+    "sha256": "a8fc80b0f8efd7cc64bf6fed546264caf1f72f4a7b2e1079de9f3f22a883383d"
+  },
+  {
+    "name": "h70_summary",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_temporal_H70_final_20260909\\summary.csv",
+    "file": "h70_summary.csv",
+    "sha256": "49c5cbd2e7373a43699d31441626d5fe70a1151c7a86d28d9126c31aeec1d7af"
+  },
+  {
+    "name": "h70_additional_batches",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_temporal_H70_final_20260909\\independent_batch_sensitivity.csv",
+    "file": "h70_additional_batches.csv",
+    "sha256": "2074cf7d11fdb47841bd3b6438158e2dac3ef4b575257ab61356d89baa310f94"
+  },
+  {
+    "name": "obstacle_controls",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_obstacle_reference_20260908\\summary.csv",
+    "file": "obstacle_controls.csv",
+    "sha256": "55623d663d042769aa641bc127f2a8a250b85d76ca841da12c2eece813cc40dd"
+  },
+  {
+    "name": "continuous_controls",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_geometry_bridge_H100_20260909\\analytic_controls.csv",
+    "file": "continuous_controls.csv",
+    "sha256": "7d7fe0175d4b5fc7c939f5d395f8de2e2ae35451d9c2919ec3d1683c5c7211e8"
+  },
+  {
+    "name": "spatial_geometry",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\spatial_H100_local_completion_20260909\\geometry_results.csv",
+    "file": "spatial_geometry.csv",
+    "sha256": "0c873fcf31e35160264219dc302ec277dbc04e4c9050eb9847425d64da007911"
+  },
+  {
+    "name": "spatial_comparisons",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\spatial_H100_local_completion_20260909\\refinement_comparisons.csv",
+    "file": "spatial_comparisons.csv",
+    "sha256": "b4922a0b44e7dbe450195bcf5d2c7adc6962611e17e9da335f7331f7b345bb0d"
+  },
+  {
+    "name": "cell_continuous_comparisons",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_geometry_precision_H100_20260910\\comparisons_new_only.csv",
+    "file": "cell_continuous_comparisons.csv",
+    "sha256": "5f27b3e6c990fd1cdf21754171c4cdafc64a7891eed01aedd6b5736078152440"
+  },
+  {
+    "name": "continuous_dt31_comparisons",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_continuous_dt31_H100_20260910\\paired_comparisons.csv",
+    "file": "continuous_dt31_comparisons.csv",
+    "sha256": "bb00f8f2b1710ed7c8ed40f16ee342b44df5711730f6e405a16afede7e748cc4"
+  },
+  {
+    "name": "continuous_final_comparisons",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_continuous_dt15_H100_20260911\\paired_comparisons.csv",
+    "file": "continuous_final_comparisons.csv",
+    "sha256": "37585a383e9fb10d4dfe69b35b245b5f55ead8d666d715c2f7cedcc138ce8bfe"
+  },
+  {
+    "name": "continuous_final_summary",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_continuous_dt15_H100_20260911\\summary.csv",
+    "file": "continuous_final_summary.csv",
+    "sha256": "aa782a3bc5444e24e0155f4f674e3d33738ce4443367003a9c253ef88e28a619"
+  },
+  {
+    "name": "continuous_final_survival",
+    "source": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transport_continuous_dt15_H100_20260911\\survival.csv",
+    "file": "continuous_final_survival.csv",
+    "sha256": "dbfca3595a41c9f708cd07d557fae9b7332b712c0cf6b61ba987f99a1be1af90"
+  }
+]

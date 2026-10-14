@@ -1,0 +1,6 @@
+# Direct scientific dependencies verified on Windows / Python 3.14.3.
+# This is not a full transitive or platform-independent lock.
+numpy==2.4.3
+scipy==1.17.1
+matplotlib==3.10.8
+pillow==12.1.1

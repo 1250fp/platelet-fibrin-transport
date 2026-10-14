@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "previous_six_replica_state_metrics_and_bootstrap_intervals_unchanged": true,
+  "new_chunk_hashes_verified": 252,
+  "protected_source_files_verified": 14679,
+  "contraction_normalized_to_original_t0_for_all_new_states": true,
+  "disconnected_but_escaped": [],
+  "new_unique_geometries": 63,
+  "unique_initial_states_counted_once": true
+}

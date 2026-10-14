@@ -1,0 +1,937 @@
+{
+  "completed": true,
+  "jobs": [
+    {
+      "job": {
+        "name": "rep6_f0_0_tm0_064",
+        "state_id": "rep6_f0_0_tm0",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm0\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm0\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm0_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm0_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 257.672862800071,
+      "sha256": "be353afaac79910a2f7fd8fbf28bb11c2ab88cb0124a2963ff0ae766d822edc3"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm0_128",
+        "state_id": "rep6_f0_0_tm0",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm0\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm0\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm0_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm0_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 266.2633682000451,
+      "sha256": "d4b621cc599db5377276f09ca9911d9a35692ca4b75ea5cfbf4a9c4a1a448f56"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm0_000",
+        "state_id": "rep6_f0_0_tm0",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm0\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm0\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm0_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm0_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 268.0047987001017,
+      "sha256": "2790b19db78bf715d54f49a6357310f27d14912ecf5ddb51d00f6681bf0f820a"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm0_192",
+        "state_id": "rep6_f0_0_tm0",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm0\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm0\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm0_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm0_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 255.57489920011722,
+      "sha256": "cbdbe1009a511a63ecf6d7871b53590e71e7bff469f08b1d40d16c25dcea806d"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm5_192",
+        "state_id": "rep6_f0_0_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm5_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm5_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 310.88854059996083,
+      "sha256": "0ccaba6790ed70553874d2c0c1d2d5f9cb2cabb3a810c472bce05b179b252bb0"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm5_064",
+        "state_id": "rep6_f0_0_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm5_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm5_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 338.949283399852,
+      "sha256": "2829eaa0bafa08e60837330ee4049f5647f1c0bd5be1f34bb98cc0e05c2ffc8f"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm5_128",
+        "state_id": "rep6_f0_0_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm5_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm5_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 349.51586660020985,
+      "sha256": "c631a792b9fc9ad198501743681ea43473ed964804420f622ddb98ed40717ce8"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm5_000",
+        "state_id": "rep6_f0_0_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm5_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm5_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 373.28366510011256,
+      "sha256": "4e68de7e8bf4be18744193cbc01f8dd42951c5b1ce1940df0b5cec0801402fb6"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm10_000",
+        "state_id": "rep6_f0_0_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm10_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm10_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 310.3115383000113,
+      "sha256": "2457cc2cad3ad7e53d126321a78ff203345dad2d4302ee4aa92a4c761da9fb7a"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm10_192",
+        "state_id": "rep6_f0_0_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm10_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm10_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 297.87528680008836,
+      "sha256": "bab5a3f919ad2b43f774bb1f0675af8faee1a4490b2464f48d6b92bc31dcc2ac"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm10_064",
+        "state_id": "rep6_f0_0_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm10_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm10_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 340.5481859999709,
+      "sha256": "0d93488e7c97b11ab9c184e1b875248de0eda1f35b20b9fcf34711c07aa530b4"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_0_tm10_128",
+        "state_id": "rep6_f0_0_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_0_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_0_tm10_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_0_tm10_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 359.18805529992096,
+      "sha256": "6aa3470ad2efc9079d30cc3a309be3831b78334fe28b88dd255fb10fd867cc9c"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_2.2_tm5_064",
+        "state_id": "rep6_f0_2.2_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_2.2_tm5_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_2.2_tm5_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 243.86184650007635,
+      "sha256": "462cd2ddee17d1eb50d43bb21385efd2b1acb902550fbf509ec7265beb3ca74b"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_2.2_tm5_000",
+        "state_id": "rep6_f0_2.2_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_2.2_tm5_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_2.2_tm5_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 278.9726874998305,
+      "sha256": "430a630059f79265481c55b2304a4796292b92e5dd28251e078e58392e8c430d"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_2.2_tm5_128",
+        "state_id": "rep6_f0_2.2_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_2.2_tm5_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_2.2_tm5_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 258.8398533000145,
+      "sha256": "db6a800da915941a0d28e6519c3eb75ebcf3809787026911b4e4daa9e75c5b83"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_2.2_tm5_192",
+        "state_id": "rep6_f0_2.2_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_2.2_tm5_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_2.2_tm5_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 261.15633500018157,
+      "sha256": "36ef8ebeabbb56d8569ec4aff056ddae1d01f64f686f473df43532aafa461da1"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_2.2_tm10_000",
+        "state_id": "rep6_f0_2.2_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_2.2_tm10_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_2.2_tm10_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 255.90752390003763,
+      "sha256": "935315c7a388027044b8e1030070e843cbcf4dea944c6267526791dcbb917bdd"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_2.2_tm10_128",
+        "state_id": "rep6_f0_2.2_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_2.2_tm10_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_2.2_tm10_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 271.001924399985,
+      "sha256": "6df4afcce7da035c1f1979e45a69460bc1acd21dad2eec6d72df43eee0222d8e"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_2.2_tm10_064",
+        "state_id": "rep6_f0_2.2_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_2.2_tm10_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_2.2_tm10_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 299.72228430001996,
+      "sha256": "33e5859310f92e562e2e8d115f15ae7e1f4ed73c7bb0da98957d55e3ccc2346e"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_2.2_tm10_192",
+        "state_id": "rep6_f0_2.2_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_2.2_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_2.2_tm10_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_2.2_tm10_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 254.2807650999166,
+      "sha256": "3b03993a8b609473f82d971fd11e63906b1be95e1b92e6971d30f4da9962f21b"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_4.4_tm5_000",
+        "state_id": "rep6_f0_4.4_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_4.4_tm5_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_4.4_tm5_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 263.2711718000937,
+      "sha256": "a13337ff00473a5ae46dbb02f71794480e42efa4022b6913dc670eb7598acde7"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_4.4_tm5_192",
+        "state_id": "rep6_f0_4.4_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_4.4_tm5_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_4.4_tm5_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 252.32941869995557,
+      "sha256": "096bf69ef993e503303080a544f94177e3bf0bbecde52db44358b4e1a75fc38b"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_4.4_tm5_064",
+        "state_id": "rep6_f0_4.4_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_4.4_tm5_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_4.4_tm5_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 273.92494160006754,
+      "sha256": "7aae4fad2d1abfac39f30311a9951ec4fcceb983f13fb2f6d1c7ab223e8a89fb"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_4.4_tm5_128",
+        "state_id": "rep6_f0_4.4_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_4.4_tm5_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_4.4_tm5_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 282.13440670003183,
+      "sha256": "ecde0f7e29db71a6d87be6c4b560e91e84150eecffef99e3a6bb8f1adbdcf964"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_4.4_tm10_000",
+        "state_id": "rep6_f0_4.4_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_4.4_tm10_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_4.4_tm10_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 253.03484350000508,
+      "sha256": "9f44a66d4a642e7362e43b547ff1e1979627b5400be0109b15a58d1ec6e29ac4"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_4.4_tm10_064",
+        "state_id": "rep6_f0_4.4_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_4.4_tm10_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_4.4_tm10_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 252.38146399986,
+      "sha256": "15cb60428955d47802d60f1527ffdd4ace3517431dc7743b804d822847386a70"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_4.4_tm10_128",
+        "state_id": "rep6_f0_4.4_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_4.4_tm10_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_4.4_tm10_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 281.7151996998582,
+      "sha256": "1a079021b49e0d1f847ff0738e7b041df5ca301536cf038791f3bacbf17e19fa"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_4.4_tm10_192",
+        "state_id": "rep6_f0_4.4_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_4.4_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_4.4_tm10_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_4.4_tm10_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 285.1504458000418,
+      "sha256": "bc084c86f299a9af7d383e7b992fe9d7df1311238e1801cf4370abb88a2e4eb0"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_8.8_tm5_000",
+        "state_id": "rep6_f0_8.8_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_8.8_tm5_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_8.8_tm5_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 280.10740830004215,
+      "sha256": "1b26552b19bafbcdf4cdb12015b3f773d685b0865aed6821a89db8eb5167b3ac"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_8.8_tm5_064",
+        "state_id": "rep6_f0_8.8_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_8.8_tm5_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_8.8_tm5_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 293.18202129984275,
+      "sha256": "b7e54285a7c3c10234d77ab5a6f9948e2f2a7c3a1aefadbbb0f4334aac1bef22"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_8.8_tm5_192",
+        "state_id": "rep6_f0_8.8_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_8.8_tm5_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_8.8_tm5_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 274.5955151999369,
+      "sha256": "b501c85fef6ca05f513d21ebe4428f6cb499dfc56b9d05314c9ad43b86427d13"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_8.8_tm5_128",
+        "state_id": "rep6_f0_8.8_tm5",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm5\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm5\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_8.8_tm5_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_8.8_tm5_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 289.4703022998292,
+      "sha256": "3b2bc7fa5b59ad0b25993140441d3d728c5b99015c50107edab118bae6725036"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_8.8_tm10_000",
+        "state_id": "rep6_f0_8.8_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_8.8_tm10_000.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_8.8_tm10_000.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 0
+      },
+      "exit_code": 0,
+      "wall_s": 342.8980287001468,
+      "sha256": "ae28a9551ee6820dc8bd1c178658b8676a41a73a3d03b0db9159ef668de09ab5"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_8.8_tm10_064",
+        "state_id": "rep6_f0_8.8_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_8.8_tm10_064.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_8.8_tm10_064.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 64
+      },
+      "exit_code": 0,
+      "wall_s": 290.956243700115,
+      "sha256": "e5503124ca1e77cc20a450cb4eadb5e49ee2ef0b5de4f5e2efb5c0af99465657"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_8.8_tm10_192",
+        "state_id": "rep6_f0_8.8_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_8.8_tm10_192.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_8.8_tm10_192.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 192
+      },
+      "exit_code": 0,
+      "wall_s": 267.26288259983994,
+      "sha256": "c5cba292523141f231d944e31dab08936b2422a708093383d14bf5c514e74f69"
+    },
+    {
+      "job": {
+        "name": "rep6_f0_8.8_tm10_128",
+        "state_id": "rep6_f0_8.8_tm10",
+        "method": "reflect_dt15",
+        "scene": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm10\\solid_full.tsv",
+        "domain": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\states\\rep6_f0_8.8_tm10\\domain.txt",
+        "initial": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\initials\\rep6_f0_8.8_tm10_128.tsv",
+        "output": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924\\transport\\rep6_f0_8.8_tm10_128.csv",
+        "N": 64,
+        "T": 100.0,
+        "dt": 1.5625e-05,
+        "seed": 919510,
+        "offset": 128
+      },
+      "exit_code": 0,
+      "wall_s": 311.5616057999432,
+      "sha256": "67d42f48117947d98f36099595238da365f89f4f08714742c6dffb9d06e40b4e"
+    }
+  ],
+  "connectivity": [
+    {
+      "state_id": "rep6_f0_0_tm0",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 0.453125,
+      "F_conn_upper": 1.0,
+      "connected": 116,
+      "disconnected": 0,
+      "unresolved": 140,
+      "connected_by_safe_cell": 35,
+      "connected_by_bridge": 81,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 3123,
+      "outer_components": 664,
+      "bridge_queries": 2197,
+      "wall_s": 17.49560509994626,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    },
+    {
+      "state_id": "rep6_f0_0_tm10",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 0.453125,
+      "F_conn_upper": 1.0,
+      "connected": 116,
+      "disconnected": 0,
+      "unresolved": 140,
+      "connected_by_safe_cell": 34,
+      "connected_by_bridge": 82,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 3115,
+      "outer_components": 661,
+      "bridge_queries": 2223,
+      "wall_s": 17.815816099988297,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    },
+    {
+      "state_id": "rep6_f0_0_tm5",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 0.4453125,
+      "F_conn_upper": 1.0,
+      "connected": 114,
+      "disconnected": 0,
+      "unresolved": 142,
+      "connected_by_safe_cell": 33,
+      "connected_by_bridge": 81,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 3102,
+      "outer_components": 665,
+      "bridge_queries": 2192,
+      "wall_s": 17.9091189999599,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    },
+    {
+      "state_id": "rep6_f0_2.2_tm5",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 0.57421875,
+      "F_conn_upper": 1.0,
+      "connected": 147,
+      "disconnected": 0,
+      "unresolved": 109,
+      "connected_by_safe_cell": 43,
+      "connected_by_bridge": 104,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 2570,
+      "outer_components": 598,
+      "bridge_queries": 3052,
+      "wall_s": 18.3620452999603,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    },
+    {
+      "state_id": "rep6_f0_2.2_tm10",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 1.0,
+      "F_conn_upper": 1.0,
+      "connected": 256,
+      "disconnected": 0,
+      "unresolved": 0,
+      "connected_by_safe_cell": 122,
+      "connected_by_bridge": 134,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 2454,
+      "outer_components": 573,
+      "bridge_queries": 4260,
+      "wall_s": 18.65329510020092,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    },
+    {
+      "state_id": "rep6_f0_4.4_tm5",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 1.0,
+      "F_conn_upper": 1.0,
+      "connected": 256,
+      "disconnected": 0,
+      "unresolved": 0,
+      "connected_by_safe_cell": 117,
+      "connected_by_bridge": 139,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 2482,
+      "outer_components": 602,
+      "bridge_queries": 4420,
+      "wall_s": 18.69632610003464,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    },
+    {
+      "state_id": "rep6_f0_4.4_tm10",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 1.0,
+      "F_conn_upper": 1.0,
+      "connected": 256,
+      "disconnected": 0,
+      "unresolved": 0,
+      "connected_by_safe_cell": 119,
+      "connected_by_bridge": 137,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 2361,
+      "outer_components": 498,
+      "bridge_queries": 4368,
+      "wall_s": 19.925846999976784,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    },
+    {
+      "state_id": "rep6_f0_8.8_tm5",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 1.0,
+      "F_conn_upper": 1.0,
+      "connected": 256,
+      "disconnected": 0,
+      "unresolved": 0,
+      "connected_by_safe_cell": 118,
+      "connected_by_bridge": 138,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 2296,
+      "outer_components": 514,
+      "bridge_queries": 4398,
+      "wall_s": 19.883394999895245,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    },
+    {
+      "state_id": "rep6_f0_8.8_tm10",
+      "completed": true,
+      "N": 256,
+      "F_conn_lower": 1.0,
+      "F_conn_upper": 1.0,
+      "connected": 256,
+      "disconnected": 0,
+      "unresolved": 0,
+      "connected_by_safe_cell": 131,
+      "connected_by_bridge": 125,
+      "shape_zyx": [
+        100,
+        512,
+        512
+      ],
+      "hxy_um": 0.09296875,
+      "hz_um": 0.05,
+      "halfdiag_um": 0.07033202853807966,
+      "inner_components": 2174,
+      "outer_components": 425,
+      "bridge_queries": 4000,
+      "wall_s": 21.292442000005394,
+      "graph": "inner6 whole-cell certificate;outer26 Lipschitz superset; independent continuous segment bridges",
+      "scope": "Bracketing connectivity, not spatial convergence; no trajectories used to classify starts",
+      "temporary_distance_grid_removed": true
+    }
+  ],
+  "wall_s": 2678.1569199562073,
+  "source_unchanged": true,
+  "scientific_analysis_deferred": true
+}

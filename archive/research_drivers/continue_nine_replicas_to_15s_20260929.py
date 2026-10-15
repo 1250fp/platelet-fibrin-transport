@@ -18,9 +18,9 @@ for key in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS', 'NUMEX
 os.environ['MPLBACKEND'] = 'Agg'
 sys.dont_write_bytecode = True
 
-PROGRAM = Path('E:/tesisprog/fibrina/sub_fibrin_model/program19_3')
+PROGRAM = Path('external_data/program19_3')
 EXPERIMENTS = PROGRAM / 'results/exploratory_experiments'
-WORKSPACE = Path('C:/Users/1250fp/Documents/Codex/2026-07-14/es')
+WORKSPACE = Path('external_data/research_workspace')
 PREFIX = 'mechanics_10to15_R1_R9_'
 FORCES = [0., 2.2, 4.4, 8.8]
 WORKERS = 8

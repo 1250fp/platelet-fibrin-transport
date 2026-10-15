@@ -177,7 +177,7 @@ def prepare_sources(old):
     core = BATCH/'source_snapshot/program19_core'
     prior = load(protect(GEOM/'preparation_manifest.json'))
     for name in ('layers.py', 'config.py', 'state.py'):
-        original = 'E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\'+name
+        original = 'external_data/program19_3/program19_core/'+name
         assert sha(core/name) == prior['source_sha256'][original]
     for source in core.rglob('*'):
         if source.is_file() and '__pycache__' not in source.parts and source.suffix != '.pyc':

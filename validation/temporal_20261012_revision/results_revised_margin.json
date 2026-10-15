@@ -273,8 +273,8 @@
   "original_all_primary_geometries_within_margin": false,
   "all_primary_states_within_revised_margins": true,
   "source_sha256": {
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\results.json": "6fe0fe2fb008145f26c99717e486c7137cf7c142a24615fe7663ca85e1c1557d",
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\protocol.json": "e76440901e51974aab04edfbeb203a0e545ecb12dfe1c1a6cb9dc9892ffcaab3",
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\temporal_confirmation_20261009\\execution_summary.json": "176ef3fc692fab7591f859823c028cafd4e1f1df8b193a44788a5d647b1110bd"
+    "external_data/research_workspace/outputs/temporal_confirmation_20261009/results.json": "6fe0fe2fb008145f26c99717e486c7137cf7c142a24615fe7663ca85e1c1557d",
+    "external_data/research_workspace/outputs/temporal_confirmation_20261009/protocol.json": "e76440901e51974aab04edfbeb203a0e545ecb12dfe1c1a6cb9dc9892ffcaab3",
+    "external_data/research_workspace/outputs/temporal_confirmation_20261009/execution_summary.json": "176ef3fc692fab7591f859823c028cafd4e1f1df8b193a44788a5d647b1110bd"
   }
 }

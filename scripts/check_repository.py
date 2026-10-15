@@ -5,16 +5,44 @@ import json
 import math
 from pathlib import Path
 import re
+from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 
+
+def check_distribution_documents():
+    roots = ['docs', 'validation', 'data', 'archive', 'configs', 'scripts', 'src', 'tests', 'paper']
+    paths = list(ROOT.glob('*.md'))
+    for directory in roots:
+        paths.extend(p for p in (ROOT/directory).rglob('*')
+                     if p.is_file() and p.suffix in {'.md', '.json', '.csv', '.py', '.cpp', '.tex', '.bib'}
+                     and not {'build', '__pycache__', 'raw'}.intersection(p.relative_to(ROOT).parts))
+    personal_root = re.compile(r'(?:[A-Za-z]:[\\/]+Users[\\/]+|[A-Za-z]:[\\/]+tesisprog[\\/]+)', re.I)
+    for path in paths:
+        contents = path.read_text(encoding='utf-8')
+        assert not personal_root.search(contents), f'Personal filesystem root in {path}'
+        if path.suffix != '.md':
+            continue
+        for target in re.findall(r'\]\(([^)]+)\)', contents):
+            target = unquote(target.strip('<>').split('#', 1)[0])
+            if not target or re.match(r'^[A-Za-z][A-Za-z0-9+.-]*:', target):
+                continue
+            assert (path.parent/target).exists(), f'Broken relative link in {path}: {target}'
+
+
 def main():
     manifest = json.loads((ROOT/'data/file_manifest.json').read_text())
+    assert manifest['schema_version'] == 2
+    assert len({r['file'] for r in manifest['records']}) == len(manifest['records'])
     for record in manifest['records']:
         p = ROOT/record['file']
         assert p.is_file(), f'Missing {p}'
         actual = hashlib.sha256(p.read_bytes()).hexdigest()
         assert actual == record['sha256'], f'Snapshot changed: {p}'
+        assert p.stat().st_size == record['bytes'], f'Size changed: {p}'
+        assert re.fullmatch(r'[0-9a-f]{64}', record['source_sha256'])
+        for alias in record.get('aliases', []):
+            assert not (ROOT/alias).exists(), f'Redundant alias restored: {alias}'
     folder = ROOT/'data/processed/homogeneous_pilot'
     with (folder/'state_metrics.csv').open() as f: metrics = list(csv.DictReader(f))
     canonical = {r['canonical_geometry'] for r in metrics}
@@ -43,7 +71,8 @@ def main():
     assert count==73728
     for filename in ['main2vPT.tex','validation_supplement.tex']:
         assert r'\bibliography{refs}' in (ROOT/'paper'/filename).read_text()
-    print(f'PASS: {len(manifest["records"])} source hashes; 117 unique production states / {total} events; {count} temporal events; shared bibliography')
+    check_distribution_documents()
+    print(f'PASS: {len(manifest["records"])} distributed hashes with original provenance; 117 unique production states / {total} events; {count} temporal events; shared bibliography; Markdown links and personal-path checks')
 
 if __name__ == '__main__':
     main()

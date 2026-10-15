@@ -1,10 +1,10 @@
 {
   "status": "completed; consolidation of four fixed-allocation batches",
   "cohorts": [
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\piloto_homogeneo_reflexion_20260919",
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replicas_3_4_20260923",
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica5_20260924",
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_replica6_20260924"
+    "external_data/research_workspace/outputs/piloto_homogeneo_reflexion_20260919",
+    "external_data/research_workspace/outputs/transporte_replicas_3_4_20260923",
+    "external_data/research_workspace/outputs/transporte_replica5_20260924",
+    "external_data/research_workspace/outputs/transporte_replica6_20260924"
   ],
   "mechanical_replicas": 6,
   "N_per_unique_geometry": 256,

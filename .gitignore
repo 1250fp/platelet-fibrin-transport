@@ -27,6 +27,7 @@ outputs/
 paper/build/
 # Large raw data belong in a separately archived data deposit
 data/raw/
+external_data/
 *.zip
 .DS_Store
 Thumbs.db

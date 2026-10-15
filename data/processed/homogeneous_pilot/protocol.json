@@ -1,8 +1,8 @@
 {
   "status": "completed; reuse of prior six-replica data plus completed new batch",
   "cohorts": [
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\six_replica_manuscript_20260924",
-    "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\transporte_nueve_replicas_15s_20261001"
+    "external_data/research_workspace/outputs/six_replica_manuscript_20260924",
+    "external_data/research_workspace/outputs/transporte_nueve_replicas_15s_20261001"
   ],
   "mechanical_replicas": 9,
   "mechanical_times_s": [

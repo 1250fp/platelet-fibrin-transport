@@ -30,14 +30,16 @@ Las diferencias son paso actual menos paso más fino; la diferencia relativa de 
 
 ## Cambios documentales
 
-Se actualizaron el resumen y la sección de verificación del minipaper, la discusión y la cohorte S8 del suplemento. La tabla ampliada conserva la diferencia entre el criterio original y el revisado. También se actualizó el punto 4 de October_review_1.md.
+Se actualizaron el resumen y la sección de verificación del minipaper, la discusión y la cohorte S8 del suplemento. La tabla ampliada conserva la diferencia entre el criterio original y el revisado.
 
-Los resultados originales se conservan en `outputs/temporal_confirmation_20261009`. La revisión se guarda en `results_revised_margin.json`, por separado. La carpeta `before` conserva los documentos previos a esta edición. No se repitió mecánica ni transporte y no se actualizó el ZIP.
+Los [resultados originales](../temporal_20261009/results.json) y el
+[informe original](../temporal_20261009/informe.md) se conservan por separado de
+[results_revised_margin.json](results_revised_margin.json). No se repitió mecánica
+ni transporte para revisar el margen.
 
-## Material para presentar
+## Figuras y documentos
 
-- [Guion de cinco minutos, ecuaciones y preguntas frecuentes](C:/Users/1250fp/Documents/Codex/2026-07-14/es/outputs/temporal_margin_revision_20261012/guion_5_minutos.md).
-- [Gráficos en PDF de dos páginas](C:/Users/1250fp/Documents/Codex/2026-07-14/es/output/pdf/convergencia_temporal_5_minutos.pdf).
-- [Supervivencia](C:/Users/1250fp/Documents/Codex/2026-07-14/es/outputs/temporal_margin_revision_20261012/01_supervivencia.png).
-- [Equivalencia](C:/Users/1250fp/Documents/Codex/2026-07-14/es/outputs/temporal_margin_revision_20261012/02_equivalencia.png).
-- [Generador Python](C:/Users/1250fp/Documents/Codex/2026-07-14/es/work/temporal_margin_revision_20261012.py).
+- [Supervivencia](01_supervivencia.png).
+- [Equivalencia con margen revisado y referencia al original](02_equivalencia.png).
+- [Suplemento compilado](../../paper/validation_supplement.pdf).
+- [Protocolo original](../temporal_20261009/protocolo.md).

@@ -1,7 +1,7 @@
 {
-  "consolidated_analysis": "C:\\Users\\1250fp\\Documents\\Codex\\2026-07-14\\es\\outputs\\nine_replica_15s_manuscript_20261001",
+  "consolidated_analysis": "external_data/research_workspace/outputs/nine_replica_15s_manuscript_20261001",
   "manifest_sha256": "28ca4953d868d0bc579362e0d1aa5528be853b585fbca5c3c6266714d19ef5be",
-  "previous_manuscript_snapshot": "E:\\tesisprog\\fibrina\\transport\\backup_before_nine_replicas_15s_20261001",
+  "previous_manuscript_snapshot": "external_data/manuscript/backup_before_nine_replicas_15s_20261001",
   "new_transport_executed_in_source_batch": true,
   "simulations_executed_by_this_script": false,
   "tex_and_manuscript_pdfs_not_updated_by_this_script": true

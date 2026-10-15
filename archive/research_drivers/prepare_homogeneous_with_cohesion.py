@@ -19,7 +19,7 @@ import prepare_homogeneous_analysis as base
 ROOT=base.ROOT
 OLD=ROOT/'outputs/analisis_homogeneo_20260916'
 OUT=ROOT/'outputs/analisis_homogeneo_con_cohesion_20260917'
-CORE=Path('E:/tesisprog/fibrina/sub_fibrin_model/program19_3/program19_core')
+CORE=Path('external_data/program19_3/program19_core')
 base.OUT=OUT
 # Do not rebuild or replace any binary used by the preceding analysis.
 base.EXE=OUT/'homogeneous_clearance.exe'

@@ -1,5 +1,9 @@
 # Prueba temporal confirmatoria del transporte
 
+Informe original del 9 de octubre, bajo el criterio de ±2 pp. La
+[revisión posterior a ±2.5 pp](../temporal_20261012_revision/informe_revisado.md)
+se documenta por separado y no sustituye la decisión original que sigue abajo.
+
 ## Conclusión
 
 **No se demuestra equivalencia conjunta en todas las geometrías comprobadas.** No corresponde marcar la convergencia temporal completa como aprobada ni ampliar los márgenes para conseguirlo.

@@ -1,38 +1,29 @@
 # Platelet-fibrin transport
 
-Private research distribution of the mechanical model, continuous reflecting
-tracer-transport engine, numerical verification, and companion minipaper.
-Prepared on 14 October 2026. This is a descriptive research pilot, not a
-biologically validated clot predictor.
-
-## Read the compiled documents
+Research code, processed simulation data, numerical verification, and companion
+minipaper on tracer retention in mechanically reorganized platelet-fibrin stacks.
+This is a descriptive pilot, not a biologically validated clot predictor.
 
 - [Minipaper (PDF)](paper/main2vPT.pdf)
 - [Numerical supplement (PDF)](paper/validation_supplement.pdf)
-- [Five-minute temporal verification guide](docs/temporal_presentation.md)
+- [Model and scientific scope](docs/model_and_scope.md)
+- [Mechanical simulation guide](docs/mechanics.md)
+- [Reproducibility and verification record](docs/reproducibility.md)
+- [Data inventory and provenance](data/README.md)
 
-The PDFs are deliberately versioned alongside their LaTeX sources. Rebuild
-them after editing the text or figures; do not treat an old PDF as the current
-source. No external Overleaf ZIP is maintained by this repository.
+## Two distinct workflows
 
-## Two different programs: do not conflate them
+`src/program19_core/` generates independent 2D mechanical layers, histories and
+checkpoints. `src/continuous_transport/` contains the C++ engines used for the
+paper's **frozen-state, continuous-solid, reflecting** transport and connectivity.
+The GUI's legacy raster-mask and evolving-geometry transport is **not** the
+paper's reflecting transport. See [model and scope](docs/model_and_scope.md).
 
-1. `src/program19_core/` is the unchanged Program19.3 mechanical code: independent
-   two-dimensional layers, saved history, checkpoints, and continuation.
-2. `src/continuous_transport/` contains the C++ engine used for the paper's
-   **frozen-state, continuous-solid, reflecting** transport and connectivity tools.
+## Install and check
 
-The legacy GUI also offers raster-mask, rejected-step and evolving-geometry
-transport. Those modes are **not** the current paper's reflecting transport.
-See [method and scope](docs/model_and_scope.md).
-
-See the [distribution checks and manuscript path map](docs/repository_checks_20261014.md)
-for the checks performed on this snapshot and the locations of its companion data.
-
-## Quick start
-
-Python 3.14.3 with the versions in `requirements-lock.txt` was used for the local
-checks. Python 3.11+ may work but is not claimed to give bitwise-identical output.
+Run from the repository root. Python 3.14.3 was used for the recorded scientific
+checks. Python 3.11+ is supported by the package metadata but bitwise-identical
+output across environments is not claimed.
 
 ```sh
 python -m venv .venv
@@ -44,78 +35,51 @@ python scripts/check_repository.py
 python -m unittest discover -s tests/mechanics -v
 ```
 
-Build the current transport engines with a C++17 compiler, then run a tiny
-synthetic example (not a new clot simulation):
+## Use
 
 ```sh
+# Inspect options or open the mechanical GUI
+python src/program19_3.py --help
+python src/program19_3.py
+
+# Build the transport tools (requires a C++17 compiler) and check a tiny example
 python scripts/build_transport.py --compiler g++
 python scripts/smoke_transport.py
-```
 
-Reproduce the existing cohort's outcome figures from the included per-particle
-event records, without rerunning mechanics or transport:
-
-```sh
+# Recreate outcome plots from included events; no simulation is rerun
 python scripts/reproduce_paper_figures.py
-```
 
-Generated figures go into `build/reproduced/`, not over the published figures.
-The historic plotting routine is reused unchanged. Its generated table predates
-later editorial row separators; the canonical typeset table is under `paper/`.
-
-Compile both documents (requires a LaTeX installation with `latexmk`, `pdflatex`
-and `bibtex`):
-
-```sh
+# Compile both PDFs (requires latexmk, pdflatex and bibtex)
 python scripts/build_paper.py
 ```
 
-This refreshes the two tracked PDFs in `paper/`; temporary TeX output stays in
-`paper/build/`. Inspect them before committing.
+Generated outcome figures go to `build/reproduced/`. Paper compilation updates
+the two tracked PDFs in `paper/`; inspect them before committing. Eight layer
+processes is the working choice on the originating PC, not a universal hardware
+requirement or the code's default. See the [mechanics guide](docs/mechanics.md).
 
-## Mechanics
+## Included data and limits
 
-```sh
-python src/program19_3.py --help
-python src/program19_3.py
-```
+The distribution includes 29,952 production histories over 117 unique geometries
+(nine mechanical seed groups), plus 73,728 separate temporal-verification histories.
+Full mechanical trajectories, checkpoints and continuous primitive scenes have
+**not yet been deposited**. This is not a one-command reproduction of the full
+mechanical-to-transport cohort. [Available and missing inputs](docs/reproducibility.md)
+are distinguished explicitly; no unavailable download or DOI is implied.
 
-The second command opens the GUI. Use **8 layer processes** as the working
-default on the originating PC. Hardware and memory requirements vary. Running
-the full mechanical cohort is an expensive, separate operation, not a prerequisite
-for viewing the paper or reproducing the included outcome plots.
+`archive/research_drivers/` retains historical workflow logic, with personal roots
+replaced by external-data labels. These are not portable batch entry points;
+the documented scripts above are. No external Overleaf ZIP is maintained here.
 
-## What is included
+## Scientific and licensing status
 
-- Program19.3 source and its existing unit tests.
-- Exact archived continuous-transport C++ source, including the separate finer
-  Brownian-increment version used in the temporal study.
-- 29,952 production event histories over 117 unique geometries, with paired
-  contrasts and geometry summaries (nine mechanical seed groups).
-- The 73,728 temporal-verification event histories and original/revised criteria.
-- LaTeX, a single shared bibliography, required figures, and compiled PDFs.
-- Import hashes and source provenance in `data/file_manifest.json`.
+Temporal acceptance uses a **post-analysis revision** from +/-2 to +/-2.5
+percentage points for survival, retaining +/-3% for relative RMST. Original
+results and the original inconclusive decision are preserved separately from
+the revised criterion. Neither this test nor the repository establishes complete
+spatial, all-state temporal, or biological validation.
 
-## What is not included
-
-The large mechanical trajectories, checkpoints, and complete primitive scenes
-have **not yet been deposited**. There is no invented download URL or DOI.
-The full mechanical-to-transport workflow is therefore not yet a one-command
-reproduction from this repository alone. See [reproducibility](docs/reproducibility.md)
-and [data inventory](data/README.md).
-
-`archive/research_drivers/` preserves original research scripts, including their
-historical paths. It is evidence of the workflow, not the portable entry point.
-Do not run these scripts unmodified against someone else's filesystem.
-
-## Publication and licensing status
-
-Keep this repository private until author approval, third-party licensing, data
-archiving, and metadata have been reviewed. No blanket open-source license has
-been invented. See [license status](LICENSE_STATUS.md) and
+The repository is publicly visible. Ownership, collaborator approval and
+third-party licensing remain under review; no blanket open-source license is
+assigned. See [license status](LICENSE_STATUS.md) and
 [third-party attribution](THIRD_PARTY_NOTICES.md).
-
-Repository contents and PDFs do not establish complete temporal/spatial or
-biological validation. The temporal acceptance uses a **post-analysis revision**
-from ±2 to ±2.5 percentage points, retaining ±3% for relative RMST. The original
-decision is preserved, not relabeled.

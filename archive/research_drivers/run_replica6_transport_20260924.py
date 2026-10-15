@@ -27,8 +27,8 @@ import numpy as np
 import common_connectivity_analysis as conn
 import run_reflection_100s as transport
 
-ROOT = Path('C:/Users/1250fp/Documents/Codex/2026-07-14/es')
-EXP = Path('E:/tesisprog/fibrina/sub_fibrin_model/program19_3/results/exploratory_experiments')
+ROOT = Path('external_data/research_workspace')
+EXP = Path('external_data/program19_3/results/exploratory_experiments')
 OLD = ROOT / 'outputs/piloto_homogeneo_reflexion_20260919'
 GEOM = ROOT / 'outputs/analisis_homogeneo_con_cohesion_20260917'
 OUT = ROOT / 'outputs/transporte_replica6_20260924'
@@ -189,7 +189,7 @@ def prepare():
     raster = importlib.import_module('program19_core.layers').rasterize_geometry
     prior_prep = load(GEOM/'preparation_manifest.json')
     for name in ('layers.py', 'config.py', 'state.py'):
-        oldpath = 'E:\\tesisprog\\fibrina\\sub_fibrin_model\\program19_3\\program19_core\\'+name
+        oldpath = 'external_data/program19_3/program19_core/'+name
         assert sha(core/name) == prior_prep['source_sha256'][oldpath]
     for folder in ('states', 'initials', 'shared', 'transport', 'regression'):
         (OUT/folder).mkdir()

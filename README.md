@@ -1,5 +1,21 @@
 # Platelet-fibrin transport
 
+## Unified workflow layout
+
+This branch sets up the layout for the combined volumetric and independent-slab workflows. It does not replace the existing code, datasets or paper. The component pages distinguish available tools from planned imports.
+
+| Source area | Purpose |
+| --- | --- |
+| [Initial conditions](src/initial_conditions/) | Generate cylinder XML inputs and initial planar networks. |
+| [3D mechanics](src/mechanics_3d/) | Evolve a volumetric clot with the Michael-derived CUDA simulator. |
+| [2D mechanics](src/mechanics_2d/) | Evolve independently seeded planar slabs. |
+| [Analysis](src/analysis/) | Project native 3D sections and compare contraction and spatial organization. |
+| [Transport](src/transport/) | Compare tracer accessibility and escape across the three representations. |
+
+Experiment settings belong in [configs](configs/), launch and verification commands in [scripts](scripts/) and [tests](tests/), and small runnable cases in [examples](examples/). The [paper](paper/) contains LaTeX, references, figures and compiled PDFs. Keep large trajectories outside Git; see the [data inventory](data/README.md) and [component licenses](LICENSES/).
+
+## Existing research snapshot
+
 Research code, processed simulation data, numerical verification, and companion
 minipaper on tracer retention in mechanically reorganized platelet-fibrin stacks.
 This is a descriptive pilot, not a biologically validated clot predictor.

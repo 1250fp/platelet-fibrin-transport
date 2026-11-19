@@ -16,7 +16,7 @@ python gen_cylinder_min.py template_sample1.xml cylinder_R24_H32_seed1.xml 1
 python gen_cylinder_min.py template_sample1.xml cylinder_R24_H32_seed2.xml 2
 ```
 
-The same seed always gives the same file. Seeds 1–3 reproduce the example inputs in `fibrin-clot-sim-cuda/examples/` byte for byte. The output XML can be passed straight to `bend-model`.
+The same seed always gives the same file. Seeds 1–3 reproduce the [simulator's example inputs](../mechanics_3d/examples/) byte for byte. The output XML can be passed straight to `bend-model`.
 
 ## Method
 

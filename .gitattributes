@@ -1,4 +1,0 @@
-# Preserve imported byte hashes across platforms; text diffs still work normally.
-* -text
-*.pdf binary
-*.png binary

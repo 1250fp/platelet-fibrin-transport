@@ -1,0 +1,22 @@
+# build products
+build/
+build-*/
+bend-model
+*.o
+*.obj
+*.a
+*.so
+# simulation output
+runs/
+State_*/
+Params_*/
+Animation_*/
+*.sta
+*.vtk
+*.vtk.series
+execution.log
+exit_code.txt
+# misc
+__pycache__/
+*.swp
+.vscode/

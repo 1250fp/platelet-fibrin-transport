@@ -1,0 +1,400 @@
+\documentclass[twocolumn, 10pt]{article}
+%\usepackage[english]{babel}
+%\usepackage{amsmath, amssymb, amsfonts, bm}
+%\usepackage{graphicx}
+%\usepackage{geometry}
+%\usepackage{cite}
+%\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}
+%\usepackage{booktabs}
+%\usepackage{titlesec}
+
+% REVTeX is not available in the current LaTeX installation; use the
+% standard article class instead.
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb, graphicx, booktabs, xcolor, lipsum}
+\usepackage[hidelinks]{hyperref}
+\usepackage{placeins}
+\renewcommand{\topfraction}{0.90}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\renewcommand{\dbltopfraction}{0.90}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@dblfptop}{0pt}
+\makeatother
+
+\begin{document}
+
+%\geometry{margin=1.7cm, top=2cm, bottom=2cm}
+%\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+
+\title{\textbf{From Three-Dimensional Clots to Independent Planar Slabs: Comparing Contraction and Tracer Escape}}
+
+\author{Juan P. Staforelli-Vivanco$^1$, Paolo Teppa Gutierrez$^{1,*}$ \\
+\small $^1$ Departamento de Física, Facultad de Ciencias Físicas y Matemáticas, \\
+\small Universidad de Concepción, Concepción, Chile \\
+\small $^*$ pteppa2018@udec.cl}
+
+\date{\today}
+
+\twocolumn[
+\begin{@twocolumnfalse}
+\maketitle
+\vspace{-1.5em}
+\begin{center}
+\begin{minipage}{0.88\textwidth}
+\small
+\noindent
+What survives when a three-dimensional (3D) clot is represented by independent planar slabs? We used eight-slab projections of three simulated 3D clots as an intermediate comparison. At 30~min, the projected area of material tracked in these clots had decreased by $19.7\pm1.9$\%, compared with $56.4\pm2.9$\% in six independent stacks at the reference traction (mean $\pm$ between-clot SD). The independent slabs started with about half as much projected fibrin backbone per slab. We then released tracers of diameter $0.5~\mu\mathrm m$ in frozen snapshots. From identical starts in the first 3D frame, projection nearly doubled the restricted mean escape time (133 versus 70~s; observation window 1,200~s). Native escape times stayed close to those in the matched empty hulls. From the first frame to 30~min, the mean solid-to-empty escape-time ratio fell from 1.95 to 1.56 in the projections and from 1.62 to 1.33 in the independent stacks. The two slab representations thus shared a decline in relative delay, but neither reproduced its magnitude in native 3D.
+\end{minipage}
+\end{center}
+\vspace{1em}
+\end{@twocolumnfalse}
+]
+
+\section{Introduction}
+Platelets pull on the fibrin network through filopodia. The resulting rearrangement can be measured as a change in the projected area of a clot \cite{Michael2023,Prakhya2022}. In a three-dimensional network, fibrin and platelets can also move out of the observation plane. A planar model keeps the traction and fiber mechanics within each slab but omits that axial motion and mechanical coupling between slabs.
+
+We compare three representations: a native 3D clot, eight projections taken from that clot, and a stack of eight slabs generated and evolved independently in the plane. The projected stack serves two purposes (Figs.~\ref{fig:virtual-sectioning-method} and~\ref{fig:representation-bridge}). Comparing a native clot with its own projection changes how depth is represented while holding the mechanical history fixed. Comparing projected and independent stacks asks whether independently generated networks reproduce measurements made on sections of 3D clots. This second comparison is between groups: neither their fibrin architectures nor their mechanical trajectories are matched.
+
+We first measure how contraction changes with traction and slab count in the planar model, then compare its projected area loss with that of material tracked in the 3D clots. For transport, we distinguish where a tracer fits from how long it takes to escape once released. A projected fiber retains its in-plane position but not its depth within a slab. By testing the same tracer and referencing each network to its own empty envelope, we can ask whether the independent stacks behave more like native clots or their projections.
+
+\section{Numerical Methodology}
+
+\subsection{Reference Volume and Independent Mechanical Slabs}
+The mechanical construction starts from a reference sphere of radius $R=24~\mu\mathrm m$ and volume $V_{\mathrm{ref}}=4\pi R^3/3$. We associate it with an equal-volume cylinder of cross-sectional area $A_0=\pi R^2$ and reference thickness $L_{\mathrm{ref}}=V_{\mathrm{ref}}/A_0=32~\mu\mathrm m$. Dividing this cylinder into $m$ slabs gives the counting thickness
+\begin{equation}
+k_m=\frac{L_{\mathrm{ref}}}{m},\qquad m\in\{4,8,16\}.
+\label{eq:slab-thickness}
+\end{equation}
+Each slab is represented mechanically by an independently generated planar network in a disk of radius $R$, within a $48\times48~\mu\mathrm m$ coordinate window. Its assigned axial coordinate is $z_s=[s-(m+1)/2]k_m$, for $s=1,\ldots,m$. Nodes and platelet centers move only in the plane, and forces do not couple different slabs. Thus, varying $m$ changes the planar population and the layered representation of a fixed reference volume, rather than increasing its prescribed thickness.
+
+The junction-density inputs are obtained from the degree counts in sample 1 of the source model's input network \cite{MichaelCodeOcean2023}. For degrees $d=3,\ldots,7$, the respective counts are $n_d^{\mathrm{ref}}=(416,289,102,95,80)$, and $\rho_d=n_d^{\mathrm{ref}}/V_{\mathrm{ref}}$. Junctions are treated as points, giving the per-slab target
+\begin{equation}
+n_{d,m}=\operatorname{round}(\rho_d A_0 k_m)
+=\operatorname{round}\!\left(\frac{n_d^{\mathrm{ref}}}{m}\right).
+\label{eq:junction-counts}
+\end{equation}
+Degrees outside this range are omitted. These are degree targets for the initial graph, not a claim that every target is realized after geometric constraints are imposed.
+
+For platelets, the reference number density is $\rho_p=45/V_{\mathrm{ref}}$. To count finite objects intersecting a slab, we use the inclusion thickness $k_m+\overline h_p$ \cite{BaddeleyJensen2005}, with prescribed mean axial caliper $\overline h_p=2.2~\mu\mathrm m$:
+\begin{equation}
+n_{p,m}=\operatorname{round}\!\left[\rho_p A_0(k_m+\overline h_p)\right].
+\label{eq:platelet-slab-count}
+\end{equation}
+The inclusion thickness follows by allowing an object's center to lie within the slab or within half its axial extent of either face. This is a counting approximation with a prescribed caliper; it does not reconstruct platelet shape or orientation. For $m=4$, 8, and 16, it gives 14, 9, and 6 platelet disks per slab, respectively, and Eq.~\eqref{eq:junction-counts} gives 246, 123, and 61 junctions. All platelet disks retain the mechanical radius $r_p=1.13~\mu\mathrm m$. Because slabs are generated independently, their platelet profiles are not identities tracked across adjacent slabs, and their summed count is not the number of distinct platelets in a reconstructed three-dimensional clot.
+
+Platelet centers are sampled in the disk with an initial target separation $2r_p+0.30~\mu\mathrm m$. Junction placement uses a target minimum separation of $1~\mu\mathrm m$ and excludes distances below $r_p+r_f+0.02~\mu\mathrm m$ from platelet centers. Half of the junction-placement target is preferentially sampled near platelets, within the filopodial reach; remaining positions are sampled over the disk. The placement routine relaxes the spacing criterion only after repeated unsuccessful attempts. Junctions are assigned degree targets and paired preferentially with nearby available neighbors, excluding duplicate edges, initial crossings between edges without a common endpoint, and edges passing through platelet exclusion disks. A junction may retain fewer neighbors than its target when no eligible pairing remains. Each accepted edge receives a persistent fiber identity before subdivision.
+
+\subsection{Overdamped Network and Platelet Dynamics}
+Both fibrin nodes and platelet centers are advanced with an overdamped Langevin update. For an object $i$ with position $\mathbf q_i$, drag coefficient $\zeta_i$, total force $\mathbf F_i$, and diffusion coefficient $D_i=k_BT/\zeta_i$,
+\begin{equation}
+\mathbf q_i(t+\delta t)=\mathbf q_i(t)
++\frac{\delta t}{\zeta_i}\mathbf F_i(t)
++\sqrt{2D_i\delta t}\,\boldsymbol\xi_i,
+\label{eq:overdamped}
+\end{equation}
+where $\boldsymbol\xi_i\sim\mathcal N(\mathbf 0,\mathbf I_2)$ is independently sampled for every object and coordinate. Mechanical quantities are expressed consistently in $\mu\mathrm{m}$, nN, and s. The effective drag coefficients used in the simulations are
+\begin{equation}
+\zeta_n=3.77\;\mathrm{nN\,s\,\mu m^{-1}},
+\qquad
+\zeta_p=85.2\;\mathrm{nN\,s\,\mu m^{-1}},
+\end{equation}
+for fibrin nodes and platelets, respectively, with $D_n=k_BT/\zeta_n$ and $D_p=k_BT/\zeta_p$. These are effective model drags: the numerical coefficients are retained from the source implementation \cite{MichaelCodeOcean2023}, but are interpreted in $\mathrm{nN\,s/\mu m}$. They are approximately $10^6$ times the Stokes estimates obtained from the viscosity and radii reported by Michael et al.~\cite{Michael2023} after conversion to these units. Their effective interpretation has not been calibrated to contraction kinetics in the present planar model; mechanical time is therefore a model time, not a validated mapping to biological contraction time.
+
+The nodal force contains backbone and cohesive WLC forces, rest-angle bending, platelet--fibrin contact, and filopodial traction. The platelet force contains platelet--platelet interaction and the equal-and-opposite reactions to platelet--fibrin contact and filopodial traction. All generated nodes are free. After each internal update, the arithmetic mean displacement over the nodes and platelet centers in that slab is subtracted from every displacement to suppress whole-slab translation. The Gaussian increments in Eq.~\eqref{eq:overdamped} are independent before this common-translation subtraction.
+
+Forces are recomputed during adaptive internal substeps. If $v_{\max}=\max_i\|\mathbf F_i\|/\zeta_i$, the deterministic displacement criterion gives
+\begin{equation}
+\delta t=\min\!\left(\Delta t_{\mathrm{rem}},
+\frac{\delta x_{\mathrm{target}}}{v_{\max}}\right),
+\qquad
+\delta x_{\mathrm{target}}=0.01\;\mu\mathrm{m}.
+\label{eq:adaptive-time}
+\end{equation}
+Here, $\Delta t_{\mathrm{rem}}$ is the portion of the prescribed outer time step that remains to be integrated after the preceding internal substeps.
+The outer interval is $\Delta t=1$ ms. The criterion in Eq.~\eqref{eq:adaptive-time} bounds the deterministic drift, not the Gaussian increment. An internal step is accepted in full when its displacement remains within the numerical safety bound; a proposed displacement greater than $1\;\mu\mathrm{m}$, a nonfinite update, or exhaustion of 10000 internal substeps terminates the interval with a diagnostic error. Positions are not clipped to enforce the displacement target.
+
+Figure~\ref{fig1} illustrates the evolution of one slab from the independent-slab mechanics cohort.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{figures/figure1_m8_30min.pdf}
+    \caption{Evolution of slab 1 from an $m=8$ clot (replica 1, seed 5100, $f_0=2.233\,\mathrm{nN}$) at (a) 0, (b) 10, (c) 20, and (d) 30 min. Disks denote platelets; lines denote fibrin backbone and active cohesive links. All panels share the same spatial limits and scale.}
+    \label{fig1}
+\end{figure}
+
+%-------------------------------------------------------------------------------------------------------------%
+
+\subsection{Initial Length-Controlled Fibrin Discretization}
+
+Each fibrin edge is subdivided once, during construction of the initial mechanical network. For an initial edge of length $L$, the number of sub-segments $S_{\mathrm{sub}}$ is determined by the target segment length $l_{\mathrm{seg}}=0.30\;\mu\mathrm{m}$:
+\begin{equation}
+S_{\mathrm{sub}}=\max\!\left(2,
+\left\lceil\frac{L}{l_{\mathrm{seg}}}\right\rceil\right).
+\label{eq:initial-discretization}
+\end{equation}
+Each resulting sub-segment $e$ stores its initial length as the reference length $L_{0,e}$. Its mechanical state is described by the engineering strain
+\begin{equation}
+\begin{aligned}
+    \gamma_e &= \frac{L_e-L_{0,e}}{L_{0,e}},
+    &\widehat{\gamma}_e &= \min(\gamma_e,\gamma_{\max}),\\
+    u_e &= \frac{\widehat{\gamma}_e}{C}.
+\end{aligned}
+    \label{eq:wlcstrain}
+\end{equation}
+where $C$ is a dimensionless WLC extension parameter and $0<\gamma_{\max}<C$. The WLC singularity occurs at $\gamma=C$, equivalently at $L=(1+C)L_0$. The cap $\widehat\gamma$ is used only in the constitutive evaluation, while the node coordinates evolve according to Eq.~\eqref{eq:overdamped}.
+
+Internal stretching uses an engineering-strain form of the Marko--Siggia WLC interpolation, following the constitutive convention of the clot model \cite{MarkoSiggia1995,Michael2023}. Here $u=\widehat\gamma/C$ is the normalized strain argument of that adapted law, not the end-to-end extension divided by contour length of an isolated chain. For a sub-segment with bundle multiplier $N$, the signed axial force is
+\begin{equation}
+    F_{\mathrm{WLC},e}
+    = \frac{N k_B T}{P}
+    \left[
+        \frac{1}{4\bigl(1-u_e\bigr)^2}-\frac{1}{4}+u_e
+    \right],
+    \label{eq:wlcforce}
+\end{equation}
+where $P$ is the persistence length. Equation~\eqref{eq:wlcforce} gives $F_{\mathrm{WLC}}=0$ at the reference configuration ($\gamma=0$), positive tension under extension, and a signed compressive response for $\gamma<0$. The analytical tangent of the uncapped law, evaluated at $\widehat{\gamma}_e$, is
+\begin{equation}
+    k_{\gamma,e}
+    = \left.\frac{\partial F_{\mathrm{WLC}}}{\partial\gamma}\right|_{\widehat{\gamma}_e}
+    = \frac{N k_B T}{P}
+    \left[
+        \frac{C^2}{2\bigl(C-\widehat{\gamma}_e\bigr)^3}+\frac{1}{C}
+    \right].
+    \label{eq:wlctangent}
+\end{equation}
+Because $\gamma$ is dimensionless, $k_{\gamma,e}$ has units of force. A spatial spring stiffness is $k_{L,e}=k_{\gamma,e}/L_{0,e}$, with units of force per length. The stiffness signal used by a platelet attached to node $j$ is evaluated at the mean signed strain of the $n_j$ incident backbone segments,
+\begin{equation}
+    \overline{\gamma}_j
+    = \frac{1}{n_j}\sum_{e\in S(j)}\gamma_e,
+    \qquad
+    k_j = k_\gamma\!\left(\min(\overline{\gamma}_j,\gamma_{\max})\right).
+    \label{eq:wlcstiffness}
+\end{equation}
+This tangent provides the local mechanical signal entering the filopodial traction law. The set $S(j)$ contains only original backbone segments incident on node $j$; cohesive links contribute to force balance and deformation, but not directly to this average. The signal is the tangent evaluated at the mean strain, not the mean of the individual segment tangents. A node without incident backbone segments is assigned zero stiffness signal.
+\subsection{Rest-Angle Bending}
+Contour preservation is represented by an angular bending energy. For a node triplet $(i,j,k)$, define the adjacent vectors and current signed turning angle as
+\begin{equation}
+\mathbf u=\mathbf x_j-\mathbf x_i,\qquad
+\mathbf v=\mathbf x_k-\mathbf x_j,
+\end{equation}
+\begin{equation}
+\phi=\operatorname{atan2}\!\left(
+(\mathbf u\times\mathbf v)_z,\mathbf u\cdot\mathbf v\right).
+\end{equation}
+The angular deviation from the stored initial angle $\phi_0$ is wrapped to $(-\pi,\pi]$,
+\begin{equation}
+\Delta\phi=\operatorname{atan2}\!\left[
+\sin(\phi-\phi_0),\cos(\phi-\phi_0)\right].
+\end{equation}
+With the reference dual length
+\begin{equation}
+\overline L_{0,ijk}=\frac{L_{0,ij}+L_{0,jk}}{2},
+\end{equation}
+the bending energy and forces are
+\begin{equation}
+E_{ijk}^{\mathrm{bend}}=
+\frac{1}{2}\frac{EI}{\overline L_{0,ijk}}(\Delta\phi)^2,
+\qquad
+\mathbf F_{\ell}^{\mathrm{bend}}
+=-\frac{\partial E_{ijk}^{\mathrm{bend}}}{\partial\mathbf x_\ell},
+\label{eq:bending-energy}
+\end{equation}
+where $\ell\in\{i,j,k\}$ and $EI=2.26\times10^{-3}\;\mathrm{nN\,\mu m^2}$. Consequently, the three forces sum to zero. Bending triplets are assigned both along subdivided fiber interiors and between angularly adjacent segments at network junctions.
+%------------------------------------------------------------------------------------------------------------%
+\subsection{Platelet-Fiber Interaction}
+
+The platelet body is represented by a circle of radius $r_p=1.13\;\mu\mathrm{m}$. Platelet--fibrin body contact acts between a platelet center $\mathbf p_m$ and fibrin node $\mathbf x_j$. Let
+\begin{equation}
+\mathbf r_{mj}=\mathbf x_j-\mathbf p_m,
+\qquad d_{mj}=\|\mathbf r_{mj}\|,
+\qquad \widehat{\mathbf r}_{mj}=\frac{\mathbf r_{mj}}{d_{mj}},
+\end{equation}
+and define
+\begin{equation}
+r_{\mathrm{in}}=f_r r_p+r_f,
+\qquad r_{\mathrm{out}}=r_p+r_f,
+\end{equation}
+where $f_r=0.9$ and the fiber radius is $r_f=0.05\;\mu\mathrm{m}$. The force exerted by platelet $m$ on node $j$ is the constant-magnitude radial law
+\begin{equation}
+\mathbf F_{j\leftarrow m}^{PF}=
+\begin{cases}
++F_{PF}\widehat{\mathbf r}_{mj},
+&0<d_{mj}<r_{\mathrm{in}},\\
+-F_{PF}\widehat{\mathbf r}_{mj},
+&r_{\mathrm{in}}\le d_{mj}\le r_{\mathrm{out}},\\
+\mathbf 0,&d_{mj}>r_{\mathrm{out}},
+\end{cases}
+\label{eq:platelet-fibrin}
+\end{equation}
+with $F_{PF}=4\;\mathrm{nN}$. Thus, the inner region is repulsive and the outer contact shell is adhesive. The platelet receives the reciprocal force $-\mathbf F_{j\leftarrow m}^{PF}$.
+
+Filopodia operate in the separate annulus $r_{\mathrm{out}}\le d_{mj}\le r_{\max}$, with $r_{\max}=2.18\;\mu\mathrm{m}$ measured from the platelet center. At initialization, each platelet receives a fixed number of arms by rounding a lognormal draw with log-space parameters $\mu=1.85$ and $\sigma=0.27$, then clipping to 2--13 arms. A free arm attaches to the nearest unoccupied fibrin node in the annulus. If its node leaves the annulus, the arm is released and globally reacquires the nearest available node; it remains free if none is eligible. Global node exclusivity prevents two filopodia from claiming the same node. Each attached arm applies its full traction magnitude, without division by the number of attached arms, and an equal-and-opposite reaction to the platelet.
+
+The filopodial traction depends on the local WLC tangent signal in Eq.~\eqref{eq:wlcstiffness}. Its stiffness-dependent contribution approaches the finite asymptote $a/b$ as $k_j$ increases, and negative total values are excluded:
+\begin{equation}
+F_{\mathrm{fil}}(k_j)
+= \max\!\left\{0,\frac{1}{2}\left[f_0 + \frac{a k_j}{b k_j + c}\right]\right\}.
+\label{eq:wlctraction}
+\end{equation}
+The numerical coefficient convention for $k_j$ in nN is $a=61$ nN, $b=3.58$, and $c=132$ nN. In particular, $f_0=0$ removes only the baseline term: the stiffness-dependent traction remains. It is not an inactive-platelet or noncontractile control.
+
+\subsection{Platelet--Platelet Interaction}
+Platelet pairs interact through the derivative of a truncated 12--6 Lennard--Jones potential. The core diameter, length scale, and cutoff are
+\begin{equation}
+d_c=2f_r r_p,\qquad
+\sigma=\frac{d_c}{2^{1/6}},\qquad
+r_c=2r_p.
+\end{equation}
+For the separation vector $\mathbf r_{ab}=\mathbf p_b-\mathbf p_a$, $r=\|\mathbf r_{ab}\|$, and $\widehat{\mathbf r}_{ab}=\mathbf r_{ab}/r$, define
+\begin{equation}
+f_{PP}(r)=
+\begin{cases}
+\displaystyle\frac{24\epsilon}{r}
+\left[2\left(\frac{\sigma}{r}\right)^{12}
+-\left(\frac{\sigma}{r}\right)^6\right],&r\le r_c,\\[3mm]
+0,&r>r_c.
+\end{cases}
+\label{eq:platelet-platelet-scalar}
+\end{equation}
+The reciprocal pair forces are
+\begin{equation}
+\mathbf F_a^{PP}=-f_{PP}(r)\widehat{\mathbf r}_{ab},
+\qquad
+\mathbf F_b^{PP}=-\mathbf F_a^{PP},
+\label{eq:platelet-platelet}
+\end{equation}
+with $\epsilon=4\;\mathrm{nN\,\mu m}$. The force is repulsive for $r<d_c$, zero at $r=d_c$, and attractive for $d_c<r<r_c$. The interaction is set to zero beyond $r_c$ and retains its unshifted value immediately inside the cutoff.
+
+\subsection{Permanent Fiber--Fiber Cohesion}
+New cohesive links are searched every ten outer mechanical intervals between distinct-fiber nodes separated by no more than $r_{\mathrm{coh}}=0.10\;\mu\mathrm{m}$. Existing backbone pairs, duplicate pairs, and node pairs sharing a fiber identity are excluded. At most four new cohesive links may be assigned to a node in one search and at most four cohesive neighbors are permitted per node; backbone neighbors are not counted toward this cohesive valence.
+
+When a link $(a,b)$ is created at time $t_b$, its reference length is
+\begin{equation}
+L_{0,ab}^{\mathrm{coh}}
+=\|\mathbf x_b(t_b)-\mathbf x_a(t_b)\|,
+\qquad
+F_{\mathrm{WLC}}(t_b)=0.
+\label{eq:cohesion-birth}
+\end{equation}
+The link is permanent and subsequently carries the same signed WLC law as a backbone segment. Only one cohesive link is allowed for each unordered node pair. Eligible candidates are considered in node-index order and accepted subject to both endpoints' valence limits. Link creation adds an axial interaction, not a new bending triplet. The endpoints, reference length, and birth time are retained for every accepted link.
+
+\subsection{Mechanical Sampling and Saved State}
+The independent-slab mechanics cohort uses $m=4$, 8, and 16 at $f_0=2.233$ nN, with three, six, and three clot replicas, respectively. At $m=8$, six replicas are also available at each of $f_0=0$ and $4.466$ nN, using the same replica seed blocks across forces. The cohort therefore contains 24 clot--condition records and 204 slab trajectories. A replica is the complete set of $m$ independently generated slabs, not a single slab. For replica $r=1,\ldots,n_m$, with $n_4=n_{16}=3$ and $n_8=6$, and slab $s=1,\ldots,m$, seeds are assigned by
+\begin{equation}
+\mathrm{seed}(m,r,s)=b_m+m(r-1)+(s-1),
+\label{eq:mechanical-seeds}
+\end{equation}
+with $b_4=5000$, $b_8=5100$, and $b_{16}=5200$. At a fixed $m$, the geometry and arm-count generator uses the same seed for every force setting, allowing matched initial configurations. Separate random streams generate geometry and arm counts. This design varies force at one slab count; it is not a full factorial comparison of force and slab count.
+
+Mechanical force evaluation and adaptive integration use the CUDA backend, with double-precision positions and forces. Independent Gaussian thermal increments are generated with a counter-based Philox stream and a Box--Muller transformation, indexed by seed, internal substep, object, and object type. The analytic-tangent, rest-angle-energy, and derivative-of-Lennard--Jones branches described above are selected by the \texttt{paper\_consistent} equation profile; the mobility setting is \texttt{effective\_network}. A matched seed does not imply identical Brownian histories at equal physical times when different force settings require different adaptive substep sequences.
+
+The mechanical protocol specifies a horizon of 1800 s and permits checkpointed stopping at 600 s. The analyzed $m=4$ trajectories reach 600 s, whereas the $m=8$ and 16 trajectories reach 1800 s. Consequently, the three-way slab-count comparison uses the common 600 s horizon; no 1800 s values are assigned to $m=4$. Snapshot times are $0,30,60,\ldots,1800$ s, supplemented by 1, 2, 5, 10, 15, 20, and 45 s. These are output times, not integration steps. Each per-slab archive stores all node and platelet coordinates in double precision, backbone pairs and reference lengths, bending triplets and rest angles, fiber identities, fixed-node flags, arm counts and attachments, and the cumulative cohesive-link list with reference lengths and birth times. Only the populated prefix identified by the saved frame count is analyzed, giving 28 frames per $m=4$ slab and 68 per $m=8$ or 16 slab. The current coordinates, simulation time, step index, and CUDA noise counter provide the restart state. Configuration metadata, seeds, and source hashes accompany each archive, so a restart preserves the existing network and cohesive links rather than regenerating their evolved configuration.
+
+Figure~\ref{fig:mechanical-stack} shows the initial and final saved configurations of all eight slabs in the same replica used for Fig.~\ref{fig1}.
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\linewidth]{figures/figure2_m8_stack_initial_final.pdf}
+\caption{Eight independent mechanical slabs ($m=8$, replica 1, $f_0=2.233$ nN) at (a) 0 and (b) 30 min. Lines show fibrin backbone and active cohesive links; disks show platelets. The planes are displayed at their assigned depths, $4~\mu\mathrm m$ apart, with identical spatial scales and viewing angles in both panels.}
+\label{fig:mechanical-stack}
+\end{figure}
+
+\subsection{Mechanical Parameterization and Internal Balance}
+Stretching follows Eqs.~\eqref{eq:wlcstrain}--\eqref{eq:wlcforce}. For every backbone or cohesive pair, the scalar WLC force is applied along the current pair direction with equal-and-opposite nodal contributions. The parameter values are $T=300$ K, $N=1100$, $P=1.07\times10^{-3}\,\mu\mathrm{m}$, $C=2.35$, and $\gamma_{\max}=2.0$. The bundle multiplier $N=1100$ follows the source implementation's value for a 100 nm fiber \cite{MichaelCodeOcean2023}; it is independent of slab count and junction degree. The platelet pair energy $\epsilon=4~\mathrm{nN\,\mu m}$ remains an input of the adapted contact law, rather than the $16~\mathrm{nN\,\mu m}$ coefficient in the original formulation \cite{Michael2023}.
+
+Table~\ref{tab:parameters} collects the parameter values. The mechanical inputs are prescribed, not fitted to contraction data. Their saved precision is retained in the configuration files; values in the text are rounded for readability. The planar force laws, effective drags, finite-caliper counting rule, and independent-slab construction are modeling choices and do not by themselves establish a calibrated three-dimensional mechanical reconstruction.
+
+\begin{table*}[tp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.03}
+\caption{Mechanical parameters and sampling protocol for the independent planar slabs. Values are rounded for presentation; configuration files retain the values used in computation. \textit{Adapted} identifies a change of interpretation, geometry, or implementation, not a new experimental calibration.}
+\label{tab:parameters}
+\begin{tabular}{@{}p{0.30\textwidth}p{0.43\textwidth}p{0.22\textwidth}@{}}
+\toprule
+Parameter or setting & Value or rule & Source \\\midrule
+\multicolumn{3}{@{}l}{\textit{Mechanical network}}\\
+Initial disk; reference volume & $R=24~\mu\mathrm m$; equal-volume cylinder $L_{\mathrm{ref}}=32~\mu\mathrm m$ & \cite{MichaelCodeOcean2023}; see text\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Platelet and fiber radii & $r_p=1.13~\mu\mathrm m$; $r_f=0.05~\mu\mathrm m$ & \cite{Michael2023,MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Junction densities (degrees 3--7) & $(7.18,4.99,1.76,1.64,1.38)\times10^{-3}~\mu\mathrm m^{-3}$; Eq.~\eqref{eq:junction-counts} & Counts: \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Slabs; platelet profiles per slab & $m=4,8,16$; $k_m=8,4,2~\mu\mathrm m$; $n_{p,m}=14,9,6$ with $\overline h_p=2.2~\mu\mathrm m$ & This study; Eq.~\eqref{eq:platelet-slab-count}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Segment length; temperature & $l_{\mathrm{seg}}=0.30~\mu\mathrm m$; $T=300$ K & \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+WLC bundle multiplier; strain cap & $N=1100$; $\gamma_{\max}=2$ & $N$: \cite{MichaelCodeOcean2023}; cap: this study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+WLC persistence and extension & $P=1.07$ nm; $C=2.35$ & \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Bending rigidity & $EI=2.26\times10^{-3}~\mathrm{nN\,\mu m^2}$ & Adapted from \cite{Michael2023,MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Effective node and platelet drag & $\zeta_n=3.77$, $\zeta_p=85.2~\mathrm{nN\,s/\mu m}$ & Adapted from \cite{MichaelCodeOcean2023}; see text\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Cohesive distance & $r_{\mathrm{coh}}=0.10~\mu\mathrm m$ & \cite{Michael2023,MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Cohesive search and valence & Every 10 outer steps; at most 4 new links and 4 cohesive neighbors per node & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Platelet--fibrin force & $F_{PF}=4$ nN & Magnitude: \cite{Michael2023}; law adapted\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Platelet pair energy & $\epsilon=4~\mathrm{nN\,\mu m}$ & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Core fraction; filopodial reach & $f_r=0.9$; $r_{\max}=2.18~\mu\mathrm m$ & \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Filopodial baselines & $2.233$ nN at all $m$; $0$, $4.466$ nN additionally at $m=8$ & \cite{MichaelCodeOcean2023}; see text\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Stiffness-response coefficients & $a=61$ nN, $b=3.58$, $c=132$ nN & Adapted from \cite{MichaelCodeOcean2023}\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Filopodia per platelet & Log-space $\mu=1.85$, $\sigma=0.27$; rounded and clipped to 2--13 & Distribution: \cite{Michael2023}; sampling adapted\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Mechanical integration; output & CUDA; outer step 1 ms; drift target $0.01~\mu\mathrm m$; 30 s output plus early snapshots (see text) & This study\\
+\specialrule{0.2pt}{1.5pt}{1.5pt}
+Independent-slab mechanics sample & $m=4$: 3 replicas, 600 s; $m=8$: 6 per force, 1800 s; $m=16$: 3, 1800 s & This study\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\input{mechanics_readouts}
+\input{transport_methods}
+\input{mechanics_results}
+\input{transport_results}
+
+\section{Discussion and Conclusion}
+In the eight-slab model, increasing the baseline filopodial force increased projected contraction and cohesive degree even though the fraction of attached arms was close to one at every force setting. Attachment occupancy alone therefore did not distinguish networks with markedly different contraction. Changing the slab count produced no comparable ordering of contraction at the common 10~min endpoint.
+
+Sectioning gave a common area measurement across models: all three volumetric clots contracted less than the independent planar stacks at 30~min. The difference also appeared in the spread of fibrin nodes. However, the volumetric sections started with about twice as much projected backbone per slab, and their material could move between depths. The comparison establishes the size and direction of the contraction gap; it does not assign that gap to dimensionality alone.
+
+The native-to-projected comparison isolates a representation effect. Extending each footprint through its slab removed valid release positions and delayed escape even from identical starts. In contrast, the projected-to-independent comparison tests which features carry over to a different network population. In both slab models the relative delay declined with mechanical age, although the independent stacks contracted more and retained tracers less than the projections. At each age the independent stacks lay between the other two representations in both admissible volume and mean delay relative to their empty hulls (Fig.~\ref{fig:representation-bridge}). Thus the two slab models agree on a trend without reproducing the native 3D escape times.
+
+For this tracer, native RMST close to its empty-hull value describes escape from the shared admissible starts; it does not imply that the mesh is transparent to all release locations or tracer sizes. Nearly all admissible sites had a verified route out, so the measured delay need not imply trapping. The independent stacks have their own initial architectures, hulls and release locations. A matched-backbone-density comparison would help distinguish architecture from mechanics; escape during contraction is a different experiment from the frozen-state comparisons here.
+
+\begingroup\small
+\bibliographystyle{unsrt}
+\bibliography{figures/refs}
+\endgroup
+
+\onecolumn
+\appendix
+\section{From Admissible Positions to Escape: A Worked Example}\label{app:hull-fit}
+For clot 1 at its first saved frame (0.01~s), we compare the native network with its own eight-slab projection. If $H$ is the common hull, $O$ the union of the obstacles in a given representation, and $a$ the tracer radius, the admissible fraction is
+\begin{equation}
+ f_{\rm fit}=\frac{\big|\{\mathbf x\in H:\operatorname{dist}(\mathbf x,O)>a\}\big|}{|H|}.
+\end{equation}
+Here $|\cdot|$ denotes volume. Sampling the same 8,192 centers gives 89.0\% admissible in native 3D and 46.1\% in the projection. These are fractions of the \emph{whole hull volume}, not of the slice shown in Fig.~\ref{fig:hull-fit-example}A,B. A center counts as admissible whether or not a path to the hull has been certified.
+
+\renewcommand{\thefigure}{A\arabic{figure}}\setcounter{figure}{0}%
+\renewcommand{\theHfigure}{fitapp.\arabic{figure}}%
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\textwidth]{figures/seed1_shared_starts.pdf}
+\caption{One clot, two obstacle representations. (A,B) Fixed slice at $y=-0.9~\mu\mathrm m$. Centers within $0.5~\mu\mathrm m$ of the slice are classified at their actual 3D positions. Boxes mark the region enlarged in Fig.~\ref{fig:projection-geometry}B. (C) Side views of 3D paths, free to move in $y$. Start 237 was selected to illustrate a large delay: escape took 60.5~s in native 3D, 60.7~s in the empty hull and 413.5~s in the projection. (D) All 768 shared starts; the star is 237. Four projected times were capped at 1,200~s (open triangles). With this cutoff, 407 starts (53\%) took longer in the projection (above the diagonal), and 228 (30\%) took more than twice as long. See Fig.~\ref{fig:hull-escape} for all three clots.}
+\label{fig:hull-fit-example}
+\end{figure}
+
+\end{document}
